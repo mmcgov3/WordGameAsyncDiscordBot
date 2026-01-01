@@ -35,6 +35,36 @@ def prev_month_key(d: date) -> str:
         return f"{d.year - 1:04d}-12"
     return f"{d.year:04d}-{d.month - 1:02d}"
 
+def extract_time_seconds(message: str) -> int | None:
+    """
+    Finds the first token containing ':' and parses it as M:SS.
+    Assumes exactly one ':' and total < 1 hour.
+    """
+    for token in message.split():
+        if ":" not in token:
+            continue
+
+        # Strip common punctuation around the token
+        cleaned = token.strip(".,!?:;()[]{}<>")
+
+        if ":" not in cleaned:
+            continue
+
+        left, right = cleaned.split(":", 1)
+
+        if not (left.isdigit() and right.isdigit()):
+            continue
+
+        minutes = int(left)
+        seconds = int(right)
+
+        if seconds >= 60:
+            continue  # invalid time like 1:99
+
+        return minutes * 60 + seconds
+
+    return None
+
 # =========================
 # Parsing (NO regex)
 # =========================
@@ -73,16 +103,27 @@ def parse_wordle_score(first_line: str) -> int | None:
     except ValueError:
         return None
 
-def parse_linkedin_game_time(first_line: str, expected_name: str) -> int | None:
-    # "Zip #281 | 0:09 and flawless 🏁"
-    line = first_line.strip()
-    if not line.lower().startswith(expected_name.lower()):
+def parse_linkedin_game(message_content: str, game_name: str):
+    """
+    Returns (game_name, seconds, pretty_time) or None
+    """
+    if not message_content:
         return None
-    if "|" not in line:
+
+    lines = [ln.strip() for ln in message_content.splitlines() if ln.strip()]
+    if not lines:
         return None
-    after_bar = line.split("|", 1)[1].strip()
-    time_token = after_bar.split()[0].strip()
-    return time_to_seconds(time_token)
+
+    # First non-empty line must identify the game
+    if not lines[0].lower().startswith(game_name.lower()):
+        return None
+
+    seconds = extract_time_seconds(message_content)
+    if seconds is None:
+        return None
+
+    return game_name, seconds, f"{seconds // 60}:{seconds % 60:02d}"
+
 
 def parse_game_metric(message_content: str):
     """
@@ -103,11 +144,10 @@ def parse_game_metric(message_content: str):
         return ("wordle", score, pretty)
 
     for game in ["zip", "tango", "queens", "crossclimb"]:
-        if first_line.lower().startswith(game):
-            sec = parse_linkedin_game_time(first_line, game)
-            if sec is None:
-                return None
-            return (game, sec, fmt_seconds(sec))
+        parsed = parse_linkedin_game(message_content, game)
+        if parsed:
+            return parsed
+
 
     return None
 
