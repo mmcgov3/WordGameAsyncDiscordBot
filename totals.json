@@ -1,7 +1,27 @@
 {
-  "meta": {
-    "last_processed_day_ny": null
+  "lifetime": {
+    "matt_mcgovern": {
+      "crossclimb": 1,
+      "queens": 1,
+      "tango": 1,
+      "total": 5,
+      "wordle": 1,
+      "zip": 1
+    }
   },
-  "lifetime": {},
-  "monthly": {}
+  "meta": {
+    "last_processed_day_ny": "2026-01-01"
+  },
+  "monthly": {
+    "2026-01": {
+      "matt_mcgovern": {
+        "crossclimb": 1,
+        "queens": 1,
+        "tango": 1,
+        "total": 5,
+        "wordle": 1,
+        "zip": 1
+      }
+    }
+  }
 }
