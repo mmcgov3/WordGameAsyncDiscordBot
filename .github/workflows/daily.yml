@@ -1,0 +1,42 @@
+name: Daily Discord Winners
+
+on:
+  schedule:
+    - cron: "5 5 * * *"   # 05:05 UTC daily (12:05am NY in winter; ~1:05am NY in DST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14.2"
+
+      - name: Install dependencies
+        run: pip install discord.py
+
+      - name: Run daily job
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+        run: python main.py
+
+      - name: Commit totals.json if changed
+        run: |
+          if git status --porcelain | grep -q "totals.json"; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add totals.json
+            git commit -m "Update totals.json"
+            git push
+          else
+            echo "No totals.json changes to commit."
+          fi
