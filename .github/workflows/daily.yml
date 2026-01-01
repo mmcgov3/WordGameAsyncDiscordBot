@@ -27,7 +27,7 @@ jobs:
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
-        run: python daily_job.py
+        run: python main.py
 
       - name: Commit totals.json if changed
         run: |
