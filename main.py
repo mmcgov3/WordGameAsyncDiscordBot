@@ -316,7 +316,7 @@ class BatchClient(discord.Client):
         try:
             channel = self.get_channel(CHANNEL_ID) or await self.fetch_channel(CHANNEL_ID)
 
-            day_ny = today_ny_date()
+            day_ny = today_ny_date() - timedelta(days=1) # process yesterday's results
             start_utc, end_utc = ny_day_window_utc(day_ny)
 
             day_stats = DayStats()
