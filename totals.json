@@ -1,7 +1,9 @@
 {
-  "meta": {
-    "last_processed_day_ny": null
-  },
   "lifetime": {},
-  "monthly": {}
+  "meta": {
+    "last_processed_day_ny": "2026-01-02"
+  },
+  "monthly": {
+    "2026-01": {}
+  }
 }
