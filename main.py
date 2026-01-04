@@ -249,7 +249,7 @@ def apply_daily_wins(totals: dict, day_ny: date, winners_by_game: dict[str, list
 
             totals["yearly"][yk][user][game] += 1
             totals["yearly"][yk][user]["total"] += 1
-            
+
     return True  # updated
 
 # =========================
@@ -312,12 +312,21 @@ def build_report(day_ny: date, scanned: int, recognized: int,
     lifetime = totals.get("lifetime", {})
     lines.extend(format_leaderboard(lifetime, "🏆 **All-time wins**", max_rows=10))
 
+    # Yearly: only on Jan 1 (show previous year)
+    if day_ny.month == 1 and day_ny.day == 1:
+        pyk = prev_year_key(day_ny)
+        year_bucket = totals.get("yearly", {}).get(pyk, {})
+        lines.append("")
+        lines.extend(format_leaderboard(year_bucket, f"🎉 **Yearly wins — {pyk}**", max_rows=10))
+        
     # Monthly: only on the 1st of month (show previous month totals)
     if day_ny.day == 1:
         pmk = prev_month_key(day_ny)
         month_bucket = totals.get("monthly", {}).get(pmk, {})
         lines.append("")
         lines.extend(format_leaderboard(month_bucket, f"📅 **Monthly wins — {pmk}**", max_rows=10))
+
+
 
     msg = "\n".join(lines)
     return msg if len(msg) <= 1900 else msg[:1900] + "\n…(truncated)"
