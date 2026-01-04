@@ -35,6 +35,12 @@ def prev_month_key(d: date) -> str:
         return f"{d.year - 1:04d}-12"
     return f"{d.year:04d}-{d.month - 1:02d}"
 
+def year_key(d: date) -> str:
+    return f"{d.year:04d}"
+
+def prev_year_key(d: date) -> str:
+    return f"{d.year - 1:04d}"
+
 def extract_time_seconds(message: str) -> int | None:
     """
     Finds the first token containing ':' and parses it as M:SS.
@@ -221,14 +227,19 @@ def apply_daily_wins(totals: dict, day_ny: date, winners_by_game: dict[str, list
     totals.setdefault("meta", {})["last_processed_day_ny"] = day_key
     totals.setdefault("lifetime", {})
     totals.setdefault("monthly", {})
+    totals.setdefault("yearly", {})
 
     mk = month_key(day_ny)
+    yk = year_key(day_ny)
+
     totals["monthly"].setdefault(mk, {})
+    totals["yearly"].setdefault(yk, {})
 
     for game, winners in winners_by_game.items():
         for user in winners:
             ensure_user_bucket(totals["lifetime"], user)
             ensure_user_bucket(totals["monthly"][mk], user)
+            ensure_user_bucket(totals["yearly"][yk], user)
 
             totals["lifetime"][user][game] += 1
             totals["lifetime"][user]["total"] += 1
@@ -236,6 +247,9 @@ def apply_daily_wins(totals: dict, day_ny: date, winners_by_game: dict[str, list
             totals["monthly"][mk][user][game] += 1
             totals["monthly"][mk][user]["total"] += 1
 
+            totals["yearly"][yk][user][game] += 1
+            totals["yearly"][yk][user]["total"] += 1
+            
     return True  # updated
 
 # =========================
