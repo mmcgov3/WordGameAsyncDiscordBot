@@ -26,17 +26,17 @@ jobs:
       - name: Run daily job
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
-          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+          CHANNELS: ${{ secrets.CHANNELS }}
         run: python main.py
 
-      - name: Commit totals.json if changed
+      - name: Commit totals files if changed
         run: |
-          if git status --porcelain | grep -q "totals.json"; then
+          if git status --porcelain | grep -E -q "totals.*\.json"; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add totals.json
-            git commit -m "Update totals.json"
+            git add totals*.json
+            git commit -m "Update totals"
             git push
           else
-            echo "No totals.json changes to commit."
+            echo "No totals changes to commit."
           fi
