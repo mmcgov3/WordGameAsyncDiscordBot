@@ -12,29 +12,29 @@
       "crossclimb": 0,
       "queens": 0,
       "tango": 0,
-      "total": 1,
-      "wordle": 1,
+      "total": 2,
+      "wordle": 2,
       "zip": 0
     },
     "elidarose": {
       "crossclimb": 1,
-      "queens": 2,
-      "tango": 1,
-      "total": 6,
-      "wordle": 0,
+      "queens": 3,
+      "tango": 2,
+      "total": 9,
+      "wordle": 1,
       "zip": 2
     },
     "matt_mcgovern": {
-      "crossclimb": 1,
+      "crossclimb": 2,
       "queens": 0,
       "tango": 1,
-      "total": 3,
-      "wordle": 1,
-      "zip": 0
+      "total": 6,
+      "wordle": 2,
+      "zip": 1
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-01-06"
+    "last_processed_day_ny": "2026-01-07"
   },
   "monthly": {
     "2026-01": {
@@ -50,25 +50,25 @@
         "crossclimb": 0,
         "queens": 0,
         "tango": 0,
-        "total": 1,
-        "wordle": 1,
+        "total": 2,
+        "wordle": 2,
         "zip": 0
       },
       "elidarose": {
         "crossclimb": 1,
-        "queens": 2,
-        "tango": 1,
-        "total": 6,
-        "wordle": 0,
+        "queens": 3,
+        "tango": 2,
+        "total": 9,
+        "wordle": 1,
         "zip": 2
       },
       "matt_mcgovern": {
-        "crossclimb": 1,
+        "crossclimb": 2,
         "queens": 0,
         "tango": 1,
-        "total": 3,
-        "wordle": 1,
-        "zip": 0
+        "total": 6,
+        "wordle": 2,
+        "zip": 1
       }
     }
   },
@@ -86,25 +86,25 @@
         "crossclimb": 0,
         "queens": 0,
         "tango": 0,
-        "total": 1,
-        "wordle": 1,
+        "total": 2,
+        "wordle": 2,
         "zip": 0
       },
       "elidarose": {
         "crossclimb": 1,
-        "queens": 2,
-        "tango": 1,
-        "total": 6,
-        "wordle": 0,
+        "queens": 3,
+        "tango": 2,
+        "total": 9,
+        "wordle": 1,
         "zip": 2
       },
       "matt_mcgovern": {
-        "crossclimb": 1,
+        "crossclimb": 2,
         "queens": 0,
         "tango": 1,
-        "total": 3,
-        "wordle": 1,
-        "zip": 0
+        "total": 6,
+        "wordle": 2,
+        "zip": 1
       }
     }
   }
