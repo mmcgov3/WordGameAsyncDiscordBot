@@ -3,40 +3,40 @@
     "elidarose": {
       "crossclimb": 6,
       "queens": 9,
-      "tango": 6,
-      "total": 31,
-      "wordle": 5,
-      "zip": 5
+      "tango": 7,
+      "total": 34,
+      "wordle": 6,
+      "zip": 6
     },
     "matt_mcgovern": {
-      "crossclimb": 5,
-      "queens": 2,
+      "crossclimb": 6,
+      "queens": 3,
       "tango": 5,
-      "total": 27,
-      "wordle": 9,
-      "zip": 6
+      "total": 31,
+      "wordle": 10,
+      "zip": 7
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-01-11"
+    "last_processed_day_ny": "2026-01-12"
   },
   "monthly": {
     "2026-01": {
       "elidarose": {
         "crossclimb": 6,
         "queens": 9,
-        "tango": 6,
-        "total": 31,
-        "wordle": 5,
-        "zip": 5
+        "tango": 7,
+        "total": 34,
+        "wordle": 6,
+        "zip": 6
       },
       "matt_mcgovern": {
-        "crossclimb": 5,
-        "queens": 2,
+        "crossclimb": 6,
+        "queens": 3,
         "tango": 5,
-        "total": 27,
-        "wordle": 9,
-        "zip": 6
+        "total": 31,
+        "wordle": 10,
+        "zip": 7
       }
     }
   },
@@ -45,18 +45,18 @@
       "elidarose": {
         "crossclimb": 6,
         "queens": 9,
-        "tango": 6,
-        "total": 31,
-        "wordle": 5,
-        "zip": 5
+        "tango": 7,
+        "total": 34,
+        "wordle": 6,
+        "zip": 6
       },
       "matt_mcgovern": {
-        "crossclimb": 5,
-        "queens": 2,
+        "crossclimb": 6,
+        "queens": 3,
         "tango": 5,
-        "total": 27,
-        "wordle": 9,
-        "zip": 6
+        "total": 31,
+        "wordle": 10,
+        "zip": 7
       }
     }
   }
