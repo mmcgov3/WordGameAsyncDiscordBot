@@ -328,6 +328,13 @@ def build_report(day_ny: date, scanned: int, recognized: int,
         for user, t in sorted(day_totals.items(), key=lambda x: x[1], reverse=True):
             lines.append(f"- **{user}**: {t}")
 
+    # Monthly leaderboard every day (current month)
+    mk = month_key(day_ny)
+    month_bucket = totals.get("monthly", {}).get(mk, {})
+    lines.append("")
+    lines.extend(format_leaderboard(month_bucket, f"📅 **Monthly wins — {mk}**", max_rows=10))
+
+    # All-time leaderboard
     lines.append("")
     lifetime = totals.get("lifetime", {})
     lines.extend(format_leaderboard(lifetime, "🏆 **All-time wins**", max_rows=10))
@@ -340,11 +347,11 @@ def build_report(day_ny: date, scanned: int, recognized: int,
         lines.extend(format_leaderboard(year_bucket, f"🎉 **Yearly wins — {pyk}**", max_rows=10))
 
     # Monthly recap only on day 1 (previous month)
-    if day_ny.day == 1:
-        pmk = prev_month_key(day_ny)
-        month_bucket = totals.get("monthly", {}).get(pmk, {})
-        lines.append("")
-        lines.extend(format_leaderboard(month_bucket, f"📅 **Monthly wins — {pmk}**", max_rows=10))
+    # if day_ny.day == 1:
+    #     pmk = prev_month_key(day_ny)
+    #     month_bucket = totals.get("monthly", {}).get(pmk, {})
+    #     lines.append("")
+    #     lines.extend(format_leaderboard(month_bucket, f"📅 **Monthly wins — {pmk}**", max_rows=10))
 
     msg = "\n".join(lines)
     return msg if len(msg) <= 1900 else msg[:1900] + "\n…(truncated)"
