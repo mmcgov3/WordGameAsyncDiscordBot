@@ -17,20 +17,20 @@
       "zip": 0
     },
     "elidarose": {
-      "crossclimb": 24,
+      "crossclimb": 25,
       "queens": 18,
-      "tango": 16,
-      "total": 96,
-      "wordle": 18,
+      "tango": 17,
+      "total": 99,
+      "wordle": 19,
       "zip": 20
     },
     "matt_mcgovern": {
       "crossclimb": 12,
-      "queens": 3,
+      "queens": 4,
       "tango": 23,
-      "total": 83,
+      "total": 85,
       "wordle": 27,
-      "zip": 18
+      "zip": 19
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
       "crossclimb": 3,
@@ -42,7 +42,7 @@
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-02-15"
+    "last_processed_day_ny": "2026-02-16"
   },
   "monthly": {
     "2026-01": {
@@ -97,20 +97,20 @@
         "zip": 2
       },
       "elidarose": {
-        "crossclimb": 11,
+        "crossclimb": 12,
         "queens": 4,
-        "tango": 5,
-        "total": 28,
-        "wordle": 4,
+        "tango": 6,
+        "total": 31,
+        "wordle": 5,
         "zip": 4
       },
       "matt_mcgovern": {
         "crossclimb": 2,
-        "queens": 1,
+        "queens": 2,
         "tango": 8,
-        "total": 26,
+        "total": 28,
         "wordle": 9,
-        "zip": 6
+        "zip": 7
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
         "crossclimb": 1,
@@ -141,20 +141,20 @@
         "zip": 0
       },
       "elidarose": {
-        "crossclimb": 24,
+        "crossclimb": 25,
         "queens": 18,
-        "tango": 16,
-        "total": 96,
-        "wordle": 18,
+        "tango": 17,
+        "total": 99,
+        "wordle": 19,
         "zip": 20
       },
       "matt_mcgovern": {
         "crossclimb": 12,
-        "queens": 3,
+        "queens": 4,
         "tango": 23,
-        "total": 83,
+        "total": 85,
         "wordle": 27,
-        "zip": 18
+        "zip": 19
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
         "crossclimb": 3,
