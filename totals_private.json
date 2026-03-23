@@ -1,24 +1,24 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 52,
-      "queens": 50,
+      "crossclimb": 53,
+      "queens": 51,
       "tango": 31,
-      "total": 225,
-      "wordle": 49,
-      "zip": 43
+      "total": 229,
+      "wordle": 50,
+      "zip": 44
     },
     "matt_mcgovern": {
       "crossclimb": 28,
       "queens": 30,
-      "tango": 50,
-      "total": 202,
+      "tango": 51,
+      "total": 204,
       "wordle": 53,
-      "zip": 41
+      "zip": 42
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-03-21"
+    "last_processed_day_ny": "2026-03-22"
   },
   "monthly": {
     "2026-01": {
@@ -59,40 +59,40 @@
     },
     "2026-03": {
       "elidarose": {
-        "crossclimb": 14,
-        "queens": 9,
+        "crossclimb": 15,
+        "queens": 10,
         "tango": 9,
-        "total": 55,
-        "wordle": 13,
-        "zip": 10
+        "total": 59,
+        "wordle": 14,
+        "zip": 11
       },
       "matt_mcgovern": {
         "crossclimb": 7,
         "queens": 12,
-        "tango": 12,
-        "total": 56,
+        "tango": 13,
+        "total": 58,
         "wordle": 13,
-        "zip": 12
+        "zip": 13
       }
     }
   },
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 52,
-        "queens": 50,
+        "crossclimb": 53,
+        "queens": 51,
         "tango": 31,
-        "total": 225,
-        "wordle": 49,
-        "zip": 43
+        "total": 229,
+        "wordle": 50,
+        "zip": 44
       },
       "matt_mcgovern": {
         "crossclimb": 28,
         "queens": 30,
-        "tango": 50,
-        "total": 202,
+        "tango": 51,
+        "total": 204,
         "wordle": 53,
-        "zip": 41
+        "zip": 42
       }
     }
   }
