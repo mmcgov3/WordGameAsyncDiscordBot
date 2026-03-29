@@ -4,8 +4,8 @@
       "crossclimb": 12,
       "queens": 24,
       "tango": 1,
-      "total": 73,
-      "wordle": 30,
+      "total": 74,
+      "wordle": 31,
       "zip": 6
     },
     "Tyz": {
@@ -25,10 +25,10 @@
       "zip": 37
     },
     "matt_mcgovern": {
-      "crossclimb": 19,
-      "queens": 14,
-      "tango": 44,
-      "total": 153,
+      "crossclimb": 20,
+      "queens": 15,
+      "tango": 45,
+      "total": 156,
       "wordle": 39,
       "zip": 37
     },
@@ -36,13 +36,13 @@
       "crossclimb": 8,
       "queens": 23,
       "tango": 11,
-      "total": 88,
-      "wordle": 33,
-      "zip": 13
+      "total": 90,
+      "wordle": 34,
+      "zip": 14
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-03-27"
+    "last_processed_day_ny": "2026-03-28"
   },
   "monthly": {
     "2026-01": {
@@ -126,8 +126,8 @@
         "crossclimb": 6,
         "queens": 9,
         "tango": 0,
-        "total": 25,
-        "wordle": 6,
+        "total": 26,
+        "wordle": 7,
         "zip": 4
       },
       "elidarose": {
@@ -139,10 +139,10 @@
         "zip": 12
       },
       "matt_mcgovern": {
-        "crossclimb": 6,
-        "queens": 8,
-        "tango": 13,
-        "total": 49,
+        "crossclimb": 7,
+        "queens": 9,
+        "tango": 14,
+        "total": 52,
         "wordle": 9,
         "zip": 13
       },
@@ -150,9 +150,9 @@
         "crossclimb": 3,
         "queens": 6,
         "tango": 4,
-        "total": 34,
-        "wordle": 15,
-        "zip": 6
+        "total": 36,
+        "wordle": 16,
+        "zip": 7
       }
     }
   },
@@ -162,8 +162,8 @@
         "crossclimb": 12,
         "queens": 24,
         "tango": 1,
-        "total": 73,
-        "wordle": 30,
+        "total": 74,
+        "wordle": 31,
         "zip": 6
       },
       "Tyz": {
@@ -183,10 +183,10 @@
         "zip": 37
       },
       "matt_mcgovern": {
-        "crossclimb": 19,
-        "queens": 14,
-        "tango": 44,
-        "total": 153,
+        "crossclimb": 20,
+        "queens": 15,
+        "tango": 45,
+        "total": 156,
         "wordle": 39,
         "zip": 37
       },
@@ -194,9 +194,9 @@
         "crossclimb": 8,
         "queens": 23,
         "tango": 11,
-        "total": 88,
-        "wordle": 33,
-        "zip": 13
+        "total": 90,
+        "wordle": 34,
+        "zip": 14
       }
     }
   }
