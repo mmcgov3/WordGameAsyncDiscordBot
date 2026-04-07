@@ -4,8 +4,8 @@
       "crossclimb": 13,
       "queens": 27,
       "tango": 1,
-      "total": 83,
-      "wordle": 35,
+      "total": 84,
+      "wordle": 36,
       "zip": 7
     },
     "Tyz": {
@@ -17,32 +17,32 @@
       "zip": 0
     },
     "elidarose": {
-      "crossclimb": 49,
+      "crossclimb": 50,
       "queens": 27,
       "tango": 33,
-      "total": 189,
-      "wordle": 38,
-      "zip": 42
+      "total": 192,
+      "wordle": 39,
+      "zip": 43
     },
     "matt_mcgovern": {
       "crossclimb": 23,
-      "queens": 16,
-      "tango": 51,
-      "total": 168,
+      "queens": 17,
+      "tango": 52,
+      "total": 170,
       "wordle": 39,
       "zip": 39
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-      "crossclimb": 8,
+      "crossclimb": 9,
       "queens": 23,
       "tango": 11,
-      "total": 94,
+      "total": 95,
       "wordle": 36,
       "zip": 16
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-04-05"
+    "last_processed_day_ny": "2026-04-06"
   },
   "monthly": {
     "2026-01": {
@@ -160,31 +160,31 @@
         "crossclimb": 0,
         "queens": 1,
         "tango": 0,
-        "total": 4,
-        "wordle": 2,
+        "total": 5,
+        "wordle": 3,
         "zip": 1
       },
       "elidarose": {
-        "crossclimb": 2,
+        "crossclimb": 3,
         "queens": 3,
         "tango": 3,
-        "total": 16,
-        "wordle": 4,
-        "zip": 4
+        "total": 19,
+        "wordle": 5,
+        "zip": 5
       },
       "matt_mcgovern": {
         "crossclimb": 3,
-        "queens": 1,
-        "tango": 4,
-        "total": 9,
+        "queens": 2,
+        "tango": 5,
+        "total": 11,
         "wordle": 0,
         "zip": 1
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-        "crossclimb": 0,
+        "crossclimb": 1,
         "queens": 0,
         "tango": 0,
-        "total": 2,
+        "total": 3,
         "wordle": 1,
         "zip": 1
       }
@@ -196,8 +196,8 @@
         "crossclimb": 13,
         "queens": 27,
         "tango": 1,
-        "total": 83,
-        "wordle": 35,
+        "total": 84,
+        "wordle": 36,
         "zip": 7
       },
       "Tyz": {
@@ -209,26 +209,26 @@
         "zip": 0
       },
       "elidarose": {
-        "crossclimb": 49,
+        "crossclimb": 50,
         "queens": 27,
         "tango": 33,
-        "total": 189,
-        "wordle": 38,
-        "zip": 42
+        "total": 192,
+        "wordle": 39,
+        "zip": 43
       },
       "matt_mcgovern": {
         "crossclimb": 23,
-        "queens": 16,
-        "tango": 51,
-        "total": 168,
+        "queens": 17,
+        "tango": 52,
+        "total": 170,
         "wordle": 39,
         "zip": 39
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-        "crossclimb": 8,
+        "crossclimb": 9,
         "queens": 23,
         "tango": 11,
-        "total": 94,
+        "total": 95,
         "wordle": 36,
         "zip": 16
       }
