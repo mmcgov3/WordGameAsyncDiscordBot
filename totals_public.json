@@ -17,20 +17,20 @@
       "zip": 0
     },
     "elidarose": {
-      "crossclimb": 55,
+      "crossclimb": 56,
       "queens": 32,
       "tango": 35,
-      "total": 212,
-      "wordle": 44,
+      "total": 214,
+      "wordle": 45,
       "zip": 46
     },
     "matt_mcgovern": {
       "crossclimb": 24,
-      "queens": 18,
-      "tango": 56,
-      "total": 179,
+      "queens": 19,
+      "tango": 57,
+      "total": 182,
       "wordle": 41,
-      "zip": 40
+      "zip": 41
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
       "crossclimb": 11,
@@ -42,7 +42,7 @@
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-04-14"
+    "last_processed_day_ny": "2026-04-15"
   },
   "monthly": {
     "2026-01": {
@@ -165,20 +165,20 @@
         "zip": 3
       },
       "elidarose": {
-        "crossclimb": 8,
+        "crossclimb": 9,
         "queens": 8,
         "tango": 5,
-        "total": 39,
-        "wordle": 10,
+        "total": 41,
+        "wordle": 11,
         "zip": 8
       },
       "matt_mcgovern": {
         "crossclimb": 4,
-        "queens": 3,
-        "tango": 9,
-        "total": 20,
+        "queens": 4,
+        "tango": 10,
+        "total": 23,
         "wordle": 2,
-        "zip": 2
+        "zip": 3
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
         "crossclimb": 3,
@@ -209,20 +209,20 @@
         "zip": 0
       },
       "elidarose": {
-        "crossclimb": 55,
+        "crossclimb": 56,
         "queens": 32,
         "tango": 35,
-        "total": 212,
-        "wordle": 44,
+        "total": 214,
+        "wordle": 45,
         "zip": 46
       },
       "matt_mcgovern": {
         "crossclimb": 24,
-        "queens": 18,
-        "tango": 56,
-        "total": 179,
+        "queens": 19,
+        "tango": 57,
+        "total": 182,
         "wordle": 41,
-        "zip": 40
+        "zip": 41
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
         "crossclimb": 11,
