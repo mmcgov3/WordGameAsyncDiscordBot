@@ -2,11 +2,11 @@
   "lifetime": {
     "CleverGuitar\ud83c\udfb8\ud83e\udd13": {
       "crossclimb": 20,
-      "queens": 56,
+      "queens": 57,
       "tango": 1,
-      "total": 157,
-      "wordle": 63,
-      "zip": 17
+      "total": 160,
+      "wordle": 64,
+      "zip": 18
     },
     "Tyz": {
       "crossclimb": 0,
@@ -17,10 +17,10 @@
       "zip": 0
     },
     "elidarose": {
-      "crossclimb": 78,
+      "crossclimb": 79,
       "queens": 44,
-      "tango": 47,
-      "total": 294,
+      "tango": 48,
+      "total": 296,
       "wordle": 64,
       "zip": 61
     },
@@ -42,7 +42,7 @@
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-06-09"
+    "last_processed_day_ny": "2026-06-10"
   },
   "monthly": {
     "2026-01": {
@@ -226,17 +226,17 @@
     "2026-06": {
       "CleverGuitar\ud83c\udfb8\ud83e\udd13": {
         "crossclimb": 1,
-        "queens": 5,
+        "queens": 6,
         "tango": 0,
-        "total": 12,
-        "wordle": 4,
-        "zip": 2
+        "total": 15,
+        "wordle": 5,
+        "zip": 3
       },
       "elidarose": {
-        "crossclimb": 5,
+        "crossclimb": 6,
         "queens": 0,
-        "tango": 1,
-        "total": 9,
+        "tango": 2,
+        "total": 11,
         "wordle": 3,
         "zip": 0
       },
@@ -262,11 +262,11 @@
     "2026": {
       "CleverGuitar\ud83c\udfb8\ud83e\udd13": {
         "crossclimb": 20,
-        "queens": 56,
+        "queens": 57,
         "tango": 1,
-        "total": 157,
-        "wordle": 63,
-        "zip": 17
+        "total": 160,
+        "wordle": 64,
+        "zip": 18
       },
       "Tyz": {
         "crossclimb": 0,
@@ -277,10 +277,10 @@
         "zip": 0
       },
       "elidarose": {
-        "crossclimb": 78,
+        "crossclimb": 79,
         "queens": 44,
-        "tango": 47,
-        "total": 294,
+        "tango": 48,
+        "total": 296,
         "wordle": 64,
         "zip": 61
       },
