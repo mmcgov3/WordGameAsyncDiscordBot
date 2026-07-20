@@ -33,16 +33,16 @@
       "zip": 77
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-      "crossclimb": 27,
-      "queens": 30,
-      "tango": 31,
-      "total": 220,
-      "wordle": 85,
-      "zip": 47
+      "crossclimb": 28,
+      "queens": 31,
+      "tango": 32,
+      "total": 225,
+      "wordle": 86,
+      "zip": 48
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-07-18"
+    "last_processed_day_ny": "2026-07-19"
   },
   "monthly": {
     "2026-01": {
@@ -283,12 +283,12 @@
         "zip": 9
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-        "crossclimb": 6,
-        "queens": 3,
-        "tango": 3,
-        "total": 29,
-        "wordle": 12,
-        "zip": 5
+        "crossclimb": 7,
+        "queens": 4,
+        "tango": 4,
+        "total": 34,
+        "wordle": 13,
+        "zip": 6
       }
     }
   },
@@ -327,12 +327,12 @@
         "zip": 77
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-        "crossclimb": 27,
-        "queens": 30,
-        "tango": 31,
-        "total": 220,
-        "wordle": 85,
-        "zip": 47
+        "crossclimb": 28,
+        "queens": 31,
+        "tango": 32,
+        "total": 225,
+        "wordle": 86,
+        "zip": 48
       }
     }
   }
