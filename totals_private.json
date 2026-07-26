@@ -4,21 +4,21 @@
       "crossclimb": 117,
       "queens": 101,
       "tango": 73,
-      "total": 515,
-      "wordle": 120,
-      "zip": 104
+      "total": 517,
+      "wordle": 121,
+      "zip": 105
     },
     "matt_mcgovern": {
       "crossclimb": 69,
-      "queens": 92,
+      "queens": 93,
       "tango": 134,
-      "total": 505,
+      "total": 506,
       "wordle": 99,
       "zip": 111
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-07-24"
+    "last_processed_day_ny": "2026-07-25"
   },
   "monthly": {
     "2026-01": {
@@ -134,15 +134,15 @@
         "crossclimb": 12,
         "queens": 6,
         "tango": 7,
-        "total": 50,
-        "wordle": 15,
-        "zip": 10
+        "total": 52,
+        "wordle": 16,
+        "zip": 11
       },
       "matt_mcgovern": {
         "crossclimb": 6,
-        "queens": 15,
+        "queens": 16,
         "tango": 17,
-        "total": 60,
+        "total": 61,
         "wordle": 8,
         "zip": 14
       }
@@ -154,15 +154,15 @@
         "crossclimb": 117,
         "queens": 101,
         "tango": 73,
-        "total": 515,
-        "wordle": 120,
-        "zip": 104
+        "total": 517,
+        "wordle": 121,
+        "zip": 105
       },
       "matt_mcgovern": {
         "crossclimb": 69,
-        "queens": 92,
+        "queens": 93,
         "tango": 134,
-        "total": 505,
+        "total": 506,
         "wordle": 99,
         "zip": 111
       }
