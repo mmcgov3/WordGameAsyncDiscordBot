@@ -15,7 +15,12 @@ TOKEN = os.environ["DISCORD_BOT_TOKEN"]
 CHANNELS_SPEC = os.environ["CHANNELS"]
 
 NY_TZ = ZoneInfo("America/New_York")
-GAMES = ["wordle", "zip", "tango", "queens", "crossclimb"]
+GAMES = ["wordle", "zip", "tango", "queens", "crossclimb", "patches", "wend"]
+# Time-based LinkedIn games (everything except wordle, which is scored by guesses).
+LINKEDIN_GAMES = [g for g in GAMES if g != "wordle"]
+# Absence of this phrase (case-insensitive) adds a 1-minute penalty to a LinkedIn time.
+NO_HINTS_PHRASE = "with no hints"
+HINT_PENALTY_SECONDS = 60
 
 # =========================
 # Time window helpers
@@ -145,6 +150,10 @@ def parse_linkedin_game(message_content: str, game_name: str):
     if seconds is None:
         return None
 
+    # Penalize a minute if the poster didn't declare they used no hints.
+    if NO_HINTS_PHRASE not in message_content.lower():
+        seconds += HINT_PENALTY_SECONDS
+
     return game_name, seconds, fmt_seconds(seconds)
 
 def parse_game_metric(message_content: str):
@@ -166,7 +175,7 @@ def parse_game_metric(message_content: str):
         pretty = f"{score}/6" if score != 100 else "X/6"
         return ("wordle", score, pretty)
 
-    for game in ["zip", "tango", "queens", "crossclimb"]:
+    for game in LINKEDIN_GAMES:
         parsed = parse_linkedin_game(message_content, game)
         if parsed:
             return parsed
@@ -221,6 +230,11 @@ def ensure_user_bucket(bucket: dict, user: str):
     if user not in bucket:
         bucket[user] = {g: 0 for g in GAMES}
         bucket[user]["total"] = 0
+    else:
+        # Backfill keys for games added after this user was first recorded.
+        for g in GAMES:
+            bucket[user].setdefault(g, 0)
+        bucket[user].setdefault("total", 0)
 
 def load_totals(path: str):
     if not os.path.exists(path):
@@ -291,7 +305,8 @@ def format_leaderboard(bucket: dict, title: str, max_rows: int = 10) -> list[str
         lines.append(
             f"- **{user}** — {total} "
             f"(Wdl {stats.get('wordle',0)}, Zip {stats.get('zip',0)}, "
-            f"Tng {stats.get('tango',0)}, Qns {stats.get('queens',0)}, Xcl {stats.get('crossclimb',0)})"
+            f"Tng {stats.get('tango',0)}, Qns {stats.get('queens',0)}, Xcl {stats.get('crossclimb',0)}, "
+            f"Pch {stats.get('patches',0)}, Wnd {stats.get('wend',0)})"
         )
     return lines
 
@@ -407,8 +422,13 @@ class BatchClient(discord.Client):
         try:
             channels = parse_channels_spec(CHANNELS_SPEC)
 
-            # Process yesterday's results (NY calendar day)
-            day_ny = today_ny_date() - timedelta(days=1)
+            # Process yesterday's results (NY calendar day) by default.
+            # Optional PROCESS_DATE=YYYY-MM-DD override targets a specific NY day (for testing).
+            process_date_env = os.environ.get("PROCESS_DATE", "").strip()
+            if process_date_env:
+                day_ny = date.fromisoformat(process_date_env)
+            else:
+                day_ny = today_ny_date() - timedelta(days=1)
 
             for channel_id, totals_path in channels:
                 await process_channel(self, channel_id, totals_path, day_ny)

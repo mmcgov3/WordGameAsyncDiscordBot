@@ -1,0 +1,8 @@
+# Local test secrets/config — never commit
+.env.test
+
+# Throwaway totals produced by test runs
+totals_test.json
+
+__pycache__/
+*.pyc
