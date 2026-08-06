@@ -19,7 +19,7 @@ GAMES = ["wordle", "zip", "tango", "queens", "crossclimb", "patches", "wend"]
 # Time-based LinkedIn games (everything except wordle, which is scored by guesses).
 LINKEDIN_GAMES = [g for g in GAMES if g != "wordle"]
 # Absence of this phrase (case-insensitive) adds a 1-minute penalty to a LinkedIn time.
-NO_HINTS_PHRASE = "with no hints"
+NO_HINTS_PHRASE = "no hints"
 HINT_PENALTY_SECONDS = 60
 
 # =========================
