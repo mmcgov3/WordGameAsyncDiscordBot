@@ -1,0 +1,62 @@
+name: Backfill Winners (manual)
+
+# Re-plays a past range of NY days with the current parsing code, for when a
+# parsing bug scored a stretch of days wrong. Posts nothing to Discord and
+# commits nothing — the corrected totals come back as a downloadable artifact.
+
+on:
+  workflow_dispatch:
+    inputs:
+      baseline_ref:
+        description: "Git ref holding the totals to rewind to (state before start_date was processed)"
+        required: true
+      start_date:
+        description: "First NY day to replay (YYYY-MM-DD)"
+        required: true
+      end_date:
+        description: "Last NY day to replay, inclusive (YYYY-MM-DD)"
+        required: true
+      dry_run:
+        description: "Compute and report without writing the totals files"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # the replay reads historical totals out of git
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14.2"
+
+      - name: Install dependencies
+        run: pip install discord.py
+
+      - name: Run backfill
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          CHANNELS: ${{ secrets.CHANNELS }}
+          BASELINE_REF: ${{ inputs.baseline_ref }}
+          START_DATE: ${{ inputs.start_date }}
+          END_DATE: ${{ inputs.end_date }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: python backfill.py
+
+      - name: Upload corrected totals + report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backfill-${{ inputs.start_date }}-to-${{ inputs.end_date }}
+          path: |
+            totals_*.json
+            backfill_report.md
+          if-no-files-found: error

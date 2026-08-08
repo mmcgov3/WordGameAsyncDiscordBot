@@ -4,5 +4,8 @@
 # Throwaway totals produced by test runs
 totals_test.json
 
+# Output of backfill.py
+backfill_report.md
+
 __pycache__/
 *.pyc
