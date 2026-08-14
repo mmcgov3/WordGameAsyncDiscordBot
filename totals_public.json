@@ -3,12 +3,12 @@
     "CleverGuitar\ud83c\udfb8\ud83e\udd13": {
       "crossclimb": 37,
       "patches": 2,
-      "queens": 82,
+      "queens": 83,
       "tango": 6,
-      "total": 240,
+      "total": 242,
       "wend": 0,
       "wordle": 82,
-      "zip": 31
+      "zip": 32
     },
     "Tyz": {
       "crossclimb": 0,
@@ -29,11 +29,11 @@
       "zip": 83
     },
     "matt_mcgovern": {
-      "crossclimb": 48,
-      "patches": 7,
+      "crossclimb": 49,
+      "patches": 8,
       "queens": 47,
       "tango": 115,
-      "total": 372,
+      "total": 374,
       "wend": 3,
       "wordle": 69,
       "zip": 83
@@ -42,15 +42,15 @@
       "crossclimb": 35,
       "patches": 2,
       "queens": 33,
-      "tango": 42,
-      "total": 275,
-      "wend": 5,
-      "wordle": 103,
+      "tango": 43,
+      "total": 278,
+      "wend": 6,
+      "wordle": 104,
       "zip": 55
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-08-12"
+    "last_processed_day_ny": "2026-08-13"
   },
   "monthly": {
     "2026-01": {
@@ -303,12 +303,12 @@
       "CleverGuitar\ud83c\udfb8\ud83e\udd13": {
         "crossclimb": 4,
         "patches": 2,
-        "queens": 4,
+        "queens": 5,
         "tango": 1,
-        "total": 21,
+        "total": 23,
         "wend": 0,
         "wordle": 4,
-        "zip": 6
+        "zip": 7
       },
       "elidarose": {
         "crossclimb": 3,
@@ -321,11 +321,11 @@
         "zip": 3
       },
       "matt_mcgovern": {
-        "crossclimb": 4,
-        "patches": 7,
+        "crossclimb": 5,
+        "patches": 8,
         "queens": 3,
         "tango": 4,
-        "total": 27,
+        "total": 29,
         "wend": 3,
         "wordle": 3,
         "zip": 3
@@ -334,10 +334,10 @@
         "crossclimb": 1,
         "patches": 2,
         "queens": 1,
-        "tango": 6,
-        "total": 26,
-        "wend": 5,
-        "wordle": 10,
+        "tango": 7,
+        "total": 29,
+        "wend": 6,
+        "wordle": 11,
         "zip": 1
       }
     }
@@ -347,12 +347,12 @@
       "CleverGuitar\ud83c\udfb8\ud83e\udd13": {
         "crossclimb": 37,
         "patches": 2,
-        "queens": 82,
+        "queens": 83,
         "tango": 6,
-        "total": 240,
+        "total": 242,
         "wend": 0,
         "wordle": 82,
-        "zip": 31
+        "zip": 32
       },
       "Tyz": {
         "crossclimb": 0,
@@ -373,11 +373,11 @@
         "zip": 83
       },
       "matt_mcgovern": {
-        "crossclimb": 48,
-        "patches": 7,
+        "crossclimb": 49,
+        "patches": 8,
         "queens": 47,
         "tango": 115,
-        "total": 372,
+        "total": 374,
         "wend": 3,
         "wordle": 69,
         "zip": 83
@@ -386,10 +386,10 @@
         "crossclimb": 35,
         "patches": 2,
         "queens": 33,
-        "tango": 42,
-        "total": 275,
-        "wend": 5,
-        "wordle": 103,
+        "tango": 43,
+        "total": 278,
+        "wend": 6,
+        "wordle": 104,
         "zip": 55
       }
     }
