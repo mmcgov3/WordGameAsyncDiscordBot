@@ -2,10 +2,10 @@
   "lifetime": {
     "CleverGuitar\ud83c\udfb8\ud83e\udd13": {
       "crossclimb": 37,
-      "patches": 4,
+      "patches": 5,
       "queens": 84,
       "tango": 6,
-      "total": 246,
+      "total": 247,
       "wend": 0,
       "wordle": 83,
       "zip": 32
@@ -19,23 +19,23 @@
       "zip": 0
     },
     "elidarose": {
-      "crossclimb": 98,
+      "crossclimb": 99,
       "patches": 1,
-      "queens": 57,
-      "tango": 65,
-      "total": 392,
-      "wend": 5,
+      "queens": 58,
+      "tango": 66,
+      "total": 397,
+      "wend": 6,
       "wordle": 83,
-      "zip": 83
+      "zip": 84
     },
     "matt_mcgovern": {
       "crossclimb": 49,
       "patches": 10,
-      "queens": 47,
+      "queens": 48,
       "tango": 117,
-      "total": 380,
+      "total": 382,
       "wend": 4,
-      "wordle": 70,
+      "wordle": 71,
       "zip": 83
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
@@ -50,7 +50,7 @@
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-08-16"
+    "last_processed_day_ny": "2026-08-17"
   },
   "monthly": {
     "2026-01": {
@@ -302,32 +302,32 @@
     "2026-08": {
       "CleverGuitar\ud83c\udfb8\ud83e\udd13": {
         "crossclimb": 4,
-        "patches": 4,
+        "patches": 5,
         "queens": 6,
         "tango": 1,
-        "total": 27,
+        "total": 28,
         "wend": 0,
         "wordle": 5,
         "zip": 7
       },
       "elidarose": {
-        "crossclimb": 4,
+        "crossclimb": 5,
         "patches": 1,
-        "queens": 4,
-        "tango": 3,
-        "total": 22,
-        "wend": 5,
+        "queens": 5,
+        "tango": 4,
+        "total": 27,
+        "wend": 6,
         "wordle": 2,
-        "zip": 3
+        "zip": 4
       },
       "matt_mcgovern": {
         "crossclimb": 5,
         "patches": 10,
-        "queens": 3,
+        "queens": 4,
         "tango": 6,
-        "total": 35,
+        "total": 37,
         "wend": 4,
-        "wordle": 4,
+        "wordle": 5,
         "zip": 3
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
@@ -346,10 +346,10 @@
     "2026": {
       "CleverGuitar\ud83c\udfb8\ud83e\udd13": {
         "crossclimb": 37,
-        "patches": 4,
+        "patches": 5,
         "queens": 84,
         "tango": 6,
-        "total": 246,
+        "total": 247,
         "wend": 0,
         "wordle": 83,
         "zip": 32
@@ -363,23 +363,23 @@
         "zip": 0
       },
       "elidarose": {
-        "crossclimb": 98,
+        "crossclimb": 99,
         "patches": 1,
-        "queens": 57,
-        "tango": 65,
-        "total": 392,
-        "wend": 5,
+        "queens": 58,
+        "tango": 66,
+        "total": 397,
+        "wend": 6,
         "wordle": 83,
-        "zip": 83
+        "zip": 84
       },
       "matt_mcgovern": {
         "crossclimb": 49,
         "patches": 10,
-        "queens": 47,
+        "queens": 48,
         "tango": 117,
-        "total": 380,
+        "total": 382,
         "wend": 4,
-        "wordle": 70,
+        "wordle": 71,
         "zip": 83
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
