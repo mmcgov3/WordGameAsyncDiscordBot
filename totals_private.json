@@ -1,28 +1,28 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 135,
-      "patches": 4,
+      "crossclimb": 136,
+      "patches": 5,
       "queens": 113,
       "tango": 82,
-      "total": 602,
+      "total": 605,
       "wend": 12,
-      "wordle": 139,
+      "wordle": 140,
       "zip": 117
     },
     "matt_mcgovern": {
       "crossclimb": 79,
       "patches": 20,
       "queens": 109,
-      "tango": 156,
-      "total": 623,
-      "wend": 13,
+      "tango": 157,
+      "total": 626,
+      "wend": 14,
       "wordle": 116,
-      "zip": 130
+      "zip": 131
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-08-26"
+    "last_processed_day_ny": "2026-08-27"
   },
   "monthly": {
     "2026-01": {
@@ -153,48 +153,48 @@
     },
     "2026-08": {
       "elidarose": {
-        "crossclimb": 14,
-        "patches": 4,
+        "crossclimb": 15,
+        "patches": 5,
         "queens": 9,
         "tango": 8,
-        "total": 69,
+        "total": 72,
         "wend": 12,
-        "wordle": 13,
+        "wordle": 14,
         "zip": 9
       },
       "matt_mcgovern": {
         "crossclimb": 9,
         "patches": 20,
         "queens": 14,
-        "tango": 18,
-        "total": 107,
-        "wend": 13,
+        "tango": 19,
+        "total": 110,
+        "wend": 14,
         "wordle": 16,
-        "zip": 17
+        "zip": 18
       }
     }
   },
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 135,
-        "patches": 4,
+        "crossclimb": 136,
+        "patches": 5,
         "queens": 113,
         "tango": 82,
-        "total": 602,
+        "total": 605,
         "wend": 12,
-        "wordle": 139,
+        "wordle": 140,
         "zip": 117
       },
       "matt_mcgovern": {
         "crossclimb": 79,
         "patches": 20,
         "queens": 109,
-        "tango": 156,
-        "total": 623,
-        "wend": 13,
+        "tango": 157,
+        "total": 626,
+        "wend": 14,
         "wordle": 116,
-        "zip": 130
+        "zip": 131
       }
     }
   }
