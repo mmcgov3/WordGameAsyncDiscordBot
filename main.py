@@ -47,6 +47,9 @@ def year_key(d: date) -> str:
 def prev_year_key(d: date) -> str:
     return f"{d.year - 1:04d}"
 
+def is_last_day_of_month(d: date) -> bool:
+    return (d + timedelta(days=1)).month != d.month
+
 # =========================
 # Channel spec parsing
 # =========================
@@ -288,6 +291,35 @@ def apply_daily_wins(totals: dict, day_ny: date, winners_by_game: dict[str, list
     return True
 
 # =========================
+# Monthly champions
+# =========================
+def compute_month_champions(totals: dict, day_ny: date) -> dict[str, int]:
+    """
+    Counts how many completed months each user has won (most total wins in the
+    month; all tied leaders share the win). A month is complete once the day
+    being processed is that month's last day, or any later day.
+    Derived from the stored "monthly" buckets, so past months count.
+    """
+    current_mk = month_key(day_ny)
+    champions: dict[str, int] = {}
+
+    for mk, bucket in totals.get("monthly", {}).items():
+        if mk > current_mk:
+            continue
+        if mk == current_mk and not is_last_day_of_month(day_ny):
+            continue
+
+        best = max((int(stats.get("total", 0)) for stats in bucket.values()), default=0)
+        if best <= 0:
+            continue
+
+        for user, stats in bucket.items():
+            if int(stats.get("total", 0)) == best:
+                champions[user] = champions.get(user, 0) + 1
+
+    return champions
+
+# =========================
 # Report building
 # =========================
 def format_leaderboard(bucket: dict, title: str, max_rows: int = 10) -> list[str]:
@@ -343,11 +375,21 @@ def build_report(day_ny: date, scanned: int, recognized: int,
         for user, t in sorted(day_totals.items(), key=lambda x: x[1], reverse=True):
             lines.append(f"- **{user}**: {t}")
 
-    # Monthly leaderboard every day (current month)
+    # Current-month leaderboard every day
     mk = month_key(day_ny)
     month_bucket = totals.get("monthly", {}).get(mk, {})
     lines.append("")
-    lines.extend(format_leaderboard(month_bucket, f"📅 **Monthly wins — {mk}**", max_rows=10))
+    lines.extend(format_leaderboard(month_bucket, f"📅 **Current Month Wins — {mk}**", max_rows=10))
+
+    # Running tally of completed months won
+    champions = compute_month_champions(totals, day_ny)
+    lines.append("")
+    lines.append("🏅 **Monthly Wins**")
+    if champions:
+        for user, n in sorted(champions.items(), key=lambda x: (-x[1], x[0].lower())):
+            lines.append(f"- **{user}**: {n}")
+    else:
+        lines.append("- _no completed months yet_")
 
     # All-time leaderboard
     lines.append("")
@@ -370,6 +412,37 @@ def build_report(day_ny: date, scanned: int, recognized: int,
 
     msg = "\n".join(lines)
     return msg if len(msg) <= 1900 else msg[:1900] + "\n…(truncated)"
+
+def build_month_congrats(day_ny: date, totals: dict) -> str | None:
+    """
+    Congratulations message for the month's winner(s), sent after the daily
+    report once the month's last day has been processed. None if no one won
+    anything this month.
+    """
+    mk = month_key(day_ny)
+    bucket = totals.get("monthly", {}).get(mk, {})
+    if not bucket:
+        return None
+
+    best = max(int(stats.get("total", 0)) for stats in bucket.values())
+    if best <= 0:
+        return None
+
+    winners = sorted(
+        (user for user, stats in bucket.items() if int(stats.get("total", 0)) == best),
+        key=str.lower,
+    )
+
+    lines = [f"🎉🏅 **Monthly Champion — {mk}** 🏅🎉", ""]
+    if len(winners) == 1:
+        lines.append(f"Congratulations **{winners[0]}**! You won {mk} with **{best}** wins! 👑")
+        lines.append("A new month is underway! Good luck, everyone! 🍀")
+    else:
+        names = ", ".join(f"**{w}**" for w in winners[:-1]) + f" and **{winners[-1]}**"
+        lines.append(f"It's a tie! Congratulations {names}, co-winners of {mk} with **{best}** wins each! 👑")
+        lines.append("A new month is underway! Good luck, everyone! 🍀")
+
+    return "\n".join(lines)
 
 # =========================
 # Per-channel processing
@@ -413,6 +486,12 @@ async def process_channel(
     suffix = os.path.basename(totals_path)
     report = build_report(day_ny, scanned, recognized, winners_by_game, best_value_by_game, totals, header_suffix=suffix)
     await channel.send(report)
+
+    # Congratulate the month's winner once its last day is processed.
+    if is_last_day_of_month(day_ny):
+        congrats = build_month_congrats(day_ny, totals)
+        if congrats:
+            await channel.send(congrats)
 
 # =========================
 # Discord batch client
