@@ -1,28 +1,28 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 146,
-      "patches": 14,
+      "crossclimb": 147,
+      "patches": 15,
       "queens": 119,
       "tango": 85,
-      "total": 662,
-      "wend": 22,
-      "wordle": 150,
-      "zip": 126
+      "total": 667,
+      "wend": 23,
+      "wordle": 151,
+      "zip": 127
     },
     "matt_mcgovern": {
       "crossclimb": 85,
       "patches": 26,
       "queens": 119,
-      "tango": 170,
-      "total": 683,
+      "tango": 171,
+      "total": 684,
       "wend": 20,
       "wordle": 125,
       "zip": 138
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-09-12"
+    "last_processed_day_ny": "2026-09-13"
   },
   "monthly": {
     "2026-01": {
@@ -175,21 +175,21 @@
     },
     "2026-09": {
       "elidarose": {
-        "crossclimb": 7,
-        "patches": 6,
+        "crossclimb": 8,
+        "patches": 7,
         "queens": 5,
         "tango": 3,
-        "total": 44,
-        "wend": 8,
-        "wordle": 8,
-        "zip": 7
+        "total": 49,
+        "wend": 9,
+        "wordle": 9,
+        "zip": 8
       },
       "matt_mcgovern": {
         "crossclimb": 5,
         "patches": 6,
         "queens": 8,
-        "tango": 9,
-        "total": 44,
+        "tango": 10,
+        "total": 45,
         "wend": 4,
         "wordle": 7,
         "zip": 5
@@ -199,21 +199,21 @@
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 146,
-        "patches": 14,
+        "crossclimb": 147,
+        "patches": 15,
         "queens": 119,
         "tango": 85,
-        "total": 662,
-        "wend": 22,
-        "wordle": 150,
-        "zip": 126
+        "total": 667,
+        "wend": 23,
+        "wordle": 151,
+        "zip": 127
       },
       "matt_mcgovern": {
         "crossclimb": 85,
         "patches": 26,
         "queens": 119,
-        "tango": 170,
-        "total": 683,
+        "tango": 171,
+        "total": 684,
         "wend": 20,
         "wordle": 125,
         "zip": 138
