@@ -1,28 +1,28 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 163,
-      "patches": 22,
+      "crossclimb": 164,
+      "patches": 23,
       "queens": 127,
       "tango": 91,
-      "total": 734,
+      "total": 738,
       "wend": 32,
-      "wordle": 161,
-      "zip": 138
+      "wordle": 162,
+      "zip": 139
     },
     "matt_mcgovern": {
       "crossclimb": 87,
       "patches": 36,
-      "queens": 129,
-      "tango": 185,
-      "total": 748,
+      "queens": 130,
+      "tango": 186,
+      "total": 750,
       "wend": 30,
       "wordle": 132,
       "zip": 149
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-10-01"
+    "last_processed_day_ny": "2026-10-02"
   },
   "monthly": {
     "2026-01": {
@@ -197,21 +197,21 @@
     },
     "2026-10": {
       "elidarose": {
-        "crossclimb": 1,
-        "patches": 0,
+        "crossclimb": 2,
+        "patches": 1,
         "queens": 0,
         "tango": 0,
-        "total": 2,
+        "total": 6,
         "wend": 1,
-        "wordle": 0,
-        "zip": 0
+        "wordle": 1,
+        "zip": 1
       },
       "matt_mcgovern": {
         "crossclimb": 0,
         "patches": 1,
-        "queens": 1,
-        "tango": 1,
-        "total": 5,
+        "queens": 2,
+        "tango": 2,
+        "total": 7,
         "wend": 0,
         "wordle": 1,
         "zip": 1
@@ -221,21 +221,21 @@
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 163,
-        "patches": 22,
+        "crossclimb": 164,
+        "patches": 23,
         "queens": 127,
         "tango": 91,
-        "total": 734,
+        "total": 738,
         "wend": 32,
-        "wordle": 161,
-        "zip": 138
+        "wordle": 162,
+        "zip": 139
       },
       "matt_mcgovern": {
         "crossclimb": 87,
         "patches": 36,
-        "queens": 129,
-        "tango": 185,
-        "total": 748,
+        "queens": 130,
+        "tango": 186,
+        "total": 750,
         "wend": 30,
         "wordle": 132,
         "zip": 149
