@@ -1,28 +1,28 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 165,
+      "crossclimb": 166,
       "patches": 24,
-      "queens": 127,
+      "queens": 128,
       "tango": 92,
-      "total": 746,
-      "wend": 34,
-      "wordle": 163,
-      "zip": 141
+      "total": 751,
+      "wend": 35,
+      "wordle": 164,
+      "zip": 142
     },
     "matt_mcgovern": {
       "crossclimb": 88,
-      "patches": 38,
+      "patches": 39,
       "queens": 133,
-      "tango": 188,
-      "total": 761,
+      "tango": 189,
+      "total": 763,
       "wend": 31,
       "wordle": 133,
       "zip": 150
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-10-05"
+    "last_processed_day_ny": "2026-10-06"
   },
   "monthly": {
     "2026-01": {
@@ -197,21 +197,21 @@
     },
     "2026-10": {
       "elidarose": {
-        "crossclimb": 3,
+        "crossclimb": 4,
         "patches": 2,
-        "queens": 0,
+        "queens": 1,
         "tango": 1,
-        "total": 14,
-        "wend": 3,
-        "wordle": 2,
-        "zip": 3
+        "total": 19,
+        "wend": 4,
+        "wordle": 3,
+        "zip": 4
       },
       "matt_mcgovern": {
         "crossclimb": 1,
-        "patches": 3,
+        "patches": 4,
         "queens": 5,
-        "tango": 4,
-        "total": 18,
+        "tango": 5,
+        "total": 20,
         "wend": 1,
         "wordle": 2,
         "zip": 2
@@ -221,21 +221,21 @@
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 165,
+        "crossclimb": 166,
         "patches": 24,
-        "queens": 127,
+        "queens": 128,
         "tango": 92,
-        "total": 746,
-        "wend": 34,
-        "wordle": 163,
-        "zip": 141
+        "total": 751,
+        "wend": 35,
+        "wordle": 164,
+        "zip": 142
       },
       "matt_mcgovern": {
         "crossclimb": 88,
-        "patches": 38,
+        "patches": 39,
         "queens": 133,
-        "tango": 188,
-        "total": 761,
+        "tango": 189,
+        "total": 763,
         "wend": 31,
         "wordle": 133,
         "zip": 150
