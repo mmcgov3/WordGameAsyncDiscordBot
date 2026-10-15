@@ -1,28 +1,28 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 172,
+      "crossclimb": 173,
       "patches": 26,
       "queens": 131,
-      "tango": 93,
-      "total": 776,
-      "wend": 40,
-      "wordle": 168,
-      "zip": 146
+      "tango": 94,
+      "total": 781,
+      "wend": 41,
+      "wordle": 169,
+      "zip": 147
     },
     "matt_mcgovern": {
       "crossclimb": 88,
-      "patches": 44,
-      "queens": 136,
+      "patches": 45,
+      "queens": 137,
       "tango": 195,
-      "total": 786,
+      "total": 789,
       "wend": 33,
-      "wordle": 137,
+      "wordle": 138,
       "zip": 153
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-10-13"
+    "last_processed_day_ny": "2026-10-14"
   },
   "monthly": {
     "2026-01": {
@@ -197,23 +197,23 @@
     },
     "2026-10": {
       "elidarose": {
-        "crossclimb": 10,
+        "crossclimb": 11,
         "patches": 4,
         "queens": 4,
-        "tango": 2,
-        "total": 44,
-        "wend": 9,
-        "wordle": 7,
-        "zip": 8
+        "tango": 3,
+        "total": 49,
+        "wend": 10,
+        "wordle": 8,
+        "zip": 9
       },
       "matt_mcgovern": {
         "crossclimb": 1,
-        "patches": 9,
-        "queens": 8,
+        "patches": 10,
+        "queens": 9,
         "tango": 11,
-        "total": 43,
+        "total": 46,
         "wend": 3,
-        "wordle": 6,
+        "wordle": 7,
         "zip": 5
       }
     }
@@ -221,23 +221,23 @@
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 172,
+        "crossclimb": 173,
         "patches": 26,
         "queens": 131,
-        "tango": 93,
-        "total": 776,
-        "wend": 40,
-        "wordle": 168,
-        "zip": 146
+        "tango": 94,
+        "total": 781,
+        "wend": 41,
+        "wordle": 169,
+        "zip": 147
       },
       "matt_mcgovern": {
         "crossclimb": 88,
-        "patches": 44,
-        "queens": 136,
+        "patches": 45,
+        "queens": 137,
         "tango": 195,
-        "total": 786,
+        "total": 789,
         "wend": 33,
-        "wordle": 137,
+        "wordle": 138,
         "zip": 153
       }
     }
