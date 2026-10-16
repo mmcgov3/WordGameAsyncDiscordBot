@@ -4,25 +4,25 @@
       "crossclimb": 173,
       "patches": 26,
       "queens": 131,
-      "tango": 94,
-      "total": 781,
-      "wend": 41,
+      "tango": 95,
+      "total": 784,
+      "wend": 42,
       "wordle": 169,
-      "zip": 147
+      "zip": 148
     },
     "matt_mcgovern": {
-      "crossclimb": 88,
-      "patches": 45,
-      "queens": 137,
+      "crossclimb": 89,
+      "patches": 46,
+      "queens": 138,
       "tango": 195,
-      "total": 789,
+      "total": 794,
       "wend": 33,
-      "wordle": 138,
-      "zip": 153
+      "wordle": 139,
+      "zip": 154
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-10-14"
+    "last_processed_day_ny": "2026-10-15"
   },
   "monthly": {
     "2026-01": {
@@ -200,21 +200,21 @@
         "crossclimb": 11,
         "patches": 4,
         "queens": 4,
-        "tango": 3,
-        "total": 49,
-        "wend": 10,
+        "tango": 4,
+        "total": 52,
+        "wend": 11,
         "wordle": 8,
-        "zip": 9
+        "zip": 10
       },
       "matt_mcgovern": {
-        "crossclimb": 1,
-        "patches": 10,
-        "queens": 9,
+        "crossclimb": 2,
+        "patches": 11,
+        "queens": 10,
         "tango": 11,
-        "total": 46,
+        "total": 51,
         "wend": 3,
-        "wordle": 7,
-        "zip": 5
+        "wordle": 8,
+        "zip": 6
       }
     }
   },
@@ -224,21 +224,21 @@
         "crossclimb": 173,
         "patches": 26,
         "queens": 131,
-        "tango": 94,
-        "total": 781,
-        "wend": 41,
+        "tango": 95,
+        "total": 784,
+        "wend": 42,
         "wordle": 169,
-        "zip": 147
+        "zip": 148
       },
       "matt_mcgovern": {
-        "crossclimb": 88,
-        "patches": 45,
-        "queens": 137,
+        "crossclimb": 89,
+        "patches": 46,
+        "queens": 138,
         "tango": 195,
-        "total": 789,
+        "total": 794,
         "wend": 33,
-        "wordle": 138,
-        "zip": 153
+        "wordle": 139,
+        "zip": 154
       }
     }
   }
