@@ -10,6 +10,16 @@
       "wordle": 89,
       "zip": 49
     },
+    "Jeet Heslin": {
+      "crossclimb": 0,
+      "patches": 1,
+      "queens": 0,
+      "tango": 0,
+      "total": 2,
+      "wend": 0,
+      "wordle": 0,
+      "zip": 1
+    },
     "Tyz": {
       "crossclimb": 0,
       "queens": 0,
@@ -19,12 +29,12 @@
       "zip": 0
     },
     "elidarose": {
-      "crossclimb": 145,
+      "crossclimb": 146,
       "patches": 21,
-      "queens": 72,
+      "queens": 73,
       "tango": 80,
-      "total": 571,
-      "wend": 33,
+      "total": 574,
+      "wend": 34,
       "wordle": 114,
       "zip": 106
     },
@@ -32,10 +42,10 @@
       "crossclimb": 58,
       "patches": 32,
       "queens": 73,
-      "tango": 155,
-      "total": 542,
+      "tango": 156,
+      "total": 544,
       "wend": 22,
-      "wordle": 100,
+      "wordle": 101,
       "zip": 102
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
@@ -50,7 +60,7 @@
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-10-21"
+    "last_processed_day_ny": "2026-10-22"
   },
   "monthly": {
     "2026-01": {
@@ -394,13 +404,23 @@
         "wordle": 0,
         "zip": 6
       },
+      "Jeet Heslin": {
+        "crossclimb": 0,
+        "patches": 1,
+        "queens": 0,
+        "tango": 0,
+        "total": 2,
+        "wend": 0,
+        "wordle": 0,
+        "zip": 1
+      },
       "elidarose": {
-        "crossclimb": 15,
+        "crossclimb": 16,
         "patches": 5,
-        "queens": 4,
+        "queens": 5,
         "tango": 5,
-        "total": 55,
-        "wend": 11,
+        "total": 58,
+        "wend": 12,
         "wordle": 9,
         "zip": 6
       },
@@ -408,10 +428,10 @@
         "crossclimb": 1,
         "patches": 11,
         "queens": 8,
-        "tango": 12,
-        "total": 50,
+        "tango": 13,
+        "total": 52,
         "wend": 4,
-        "wordle": 11,
+        "wordle": 12,
         "zip": 3
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
@@ -438,6 +458,16 @@
         "wordle": 89,
         "zip": 49
       },
+      "Jeet Heslin": {
+        "crossclimb": 0,
+        "patches": 1,
+        "queens": 0,
+        "tango": 0,
+        "total": 2,
+        "wend": 0,
+        "wordle": 0,
+        "zip": 1
+      },
       "Tyz": {
         "crossclimb": 0,
         "queens": 0,
@@ -447,12 +477,12 @@
         "zip": 0
       },
       "elidarose": {
-        "crossclimb": 145,
+        "crossclimb": 146,
         "patches": 21,
-        "queens": 72,
+        "queens": 73,
         "tango": 80,
-        "total": 571,
-        "wend": 33,
+        "total": 574,
+        "wend": 34,
         "wordle": 114,
         "zip": 106
       },
@@ -460,10 +490,10 @@
         "crossclimb": 58,
         "patches": 32,
         "queens": 73,
-        "tango": 155,
-        "total": 542,
+        "tango": 156,
+        "total": 544,
         "wend": 22,
-        "wordle": 100,
+        "wordle": 101,
         "zip": 102
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
