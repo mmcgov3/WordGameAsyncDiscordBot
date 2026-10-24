@@ -12,10 +12,10 @@
     },
     "Jeet Heslin": {
       "crossclimb": 0,
-      "patches": 1,
-      "queens": 0,
+      "patches": 2,
+      "queens": 1,
       "tango": 0,
-      "total": 2,
+      "total": 4,
       "wend": 0,
       "wordle": 0,
       "zip": 1
@@ -30,10 +30,10 @@
     },
     "elidarose": {
       "crossclimb": 146,
-      "patches": 21,
+      "patches": 22,
       "queens": 73,
       "tango": 80,
-      "total": 574,
+      "total": 575,
       "wend": 34,
       "wordle": 114,
       "zip": 106
@@ -42,25 +42,25 @@
       "crossclimb": 58,
       "patches": 32,
       "queens": 73,
-      "tango": 156,
-      "total": 544,
-      "wend": 22,
-      "wordle": 101,
+      "tango": 157,
+      "total": 547,
+      "wend": 23,
+      "wordle": 102,
       "zip": 102
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-      "crossclimb": 42,
+      "crossclimb": 43,
       "patches": 13,
       "queens": 39,
       "tango": 56,
-      "total": 378,
+      "total": 380,
       "wend": 23,
       "wordle": 128,
-      "zip": 77
+      "zip": 78
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-10-22"
+    "last_processed_day_ny": "2026-10-23"
   },
   "monthly": {
     "2026-01": {
@@ -406,20 +406,20 @@
       },
       "Jeet Heslin": {
         "crossclimb": 0,
-        "patches": 1,
-        "queens": 0,
+        "patches": 2,
+        "queens": 1,
         "tango": 0,
-        "total": 2,
+        "total": 4,
         "wend": 0,
         "wordle": 0,
         "zip": 1
       },
       "elidarose": {
         "crossclimb": 16,
-        "patches": 5,
+        "patches": 6,
         "queens": 5,
         "tango": 5,
-        "total": 58,
+        "total": 59,
         "wend": 12,
         "wordle": 9,
         "zip": 6
@@ -428,21 +428,21 @@
         "crossclimb": 1,
         "patches": 11,
         "queens": 8,
-        "tango": 13,
-        "total": 52,
-        "wend": 4,
-        "wordle": 12,
+        "tango": 14,
+        "total": 55,
+        "wend": 5,
+        "wordle": 13,
         "zip": 3
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-        "crossclimb": 5,
+        "crossclimb": 6,
         "patches": 6,
         "queens": 2,
         "tango": 2,
-        "total": 37,
+        "total": 39,
         "wend": 5,
         "wordle": 9,
-        "zip": 8
+        "zip": 9
       }
     }
   },
@@ -460,10 +460,10 @@
       },
       "Jeet Heslin": {
         "crossclimb": 0,
-        "patches": 1,
-        "queens": 0,
+        "patches": 2,
+        "queens": 1,
         "tango": 0,
-        "total": 2,
+        "total": 4,
         "wend": 0,
         "wordle": 0,
         "zip": 1
@@ -478,10 +478,10 @@
       },
       "elidarose": {
         "crossclimb": 146,
-        "patches": 21,
+        "patches": 22,
         "queens": 73,
         "tango": 80,
-        "total": 574,
+        "total": 575,
         "wend": 34,
         "wordle": 114,
         "zip": 106
@@ -490,21 +490,21 @@
         "crossclimb": 58,
         "patches": 32,
         "queens": 73,
-        "tango": 156,
-        "total": 544,
-        "wend": 22,
-        "wordle": 101,
+        "tango": 157,
+        "total": 547,
+        "wend": 23,
+        "wordle": 102,
         "zip": 102
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-        "crossclimb": 42,
+        "crossclimb": 43,
         "patches": 13,
         "queens": 39,
         "tango": 56,
-        "total": 378,
+        "total": 380,
         "wend": 23,
         "wordle": 128,
-        "zip": 77
+        "zip": 78
       }
     }
   }

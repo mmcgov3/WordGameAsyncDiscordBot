@@ -1,11 +1,11 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 179,
-      "patches": 28,
-      "queens": 134,
+      "crossclimb": 180,
+      "patches": 29,
+      "queens": 135,
       "tango": 98,
-      "total": 809,
+      "total": 812,
       "wend": 48,
       "wordle": 172,
       "zip": 150
@@ -14,15 +14,15 @@
       "crossclimb": 90,
       "patches": 51,
       "queens": 142,
-      "tango": 199,
-      "total": 818,
-      "wend": 34,
-      "wordle": 143,
-      "zip": 159
+      "tango": 200,
+      "total": 822,
+      "wend": 35,
+      "wordle": 144,
+      "zip": 160
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-10-22"
+    "last_processed_day_ny": "2026-10-23"
   },
   "monthly": {
     "2026-01": {
@@ -197,11 +197,11 @@
     },
     "2026-10": {
       "elidarose": {
-        "crossclimb": 17,
-        "patches": 6,
-        "queens": 7,
+        "crossclimb": 18,
+        "patches": 7,
+        "queens": 8,
         "tango": 7,
-        "total": 77,
+        "total": 80,
         "wend": 17,
         "wordle": 11,
         "zip": 12
@@ -210,22 +210,22 @@
         "crossclimb": 3,
         "patches": 16,
         "queens": 14,
-        "tango": 15,
-        "total": 75,
-        "wend": 4,
-        "wordle": 12,
-        "zip": 11
+        "tango": 16,
+        "total": 79,
+        "wend": 5,
+        "wordle": 13,
+        "zip": 12
       }
     }
   },
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 179,
-        "patches": 28,
-        "queens": 134,
+        "crossclimb": 180,
+        "patches": 29,
+        "queens": 135,
         "tango": 98,
-        "total": 809,
+        "total": 812,
         "wend": 48,
         "wordle": 172,
         "zip": 150
@@ -234,11 +234,11 @@
         "crossclimb": 90,
         "patches": 51,
         "queens": 142,
-        "tango": 199,
-        "total": 818,
-        "wend": 34,
-        "wordle": 143,
-        "zip": 159
+        "tango": 200,
+        "total": 822,
+        "wend": 35,
+        "wordle": 144,
+        "zip": 160
       }
     }
   }
