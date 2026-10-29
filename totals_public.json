@@ -22,10 +22,10 @@
     },
     "Jeet Heslin - Georgetown": {
       "crossclimb": 0,
-      "patches": 0,
-      "queens": 1,
+      "patches": 1,
+      "queens": 2,
       "tango": 0,
-      "total": 3,
+      "total": 5,
       "wend": 1,
       "wordle": 0,
       "zip": 1
@@ -43,9 +43,9 @@
       "patches": 24,
       "queens": 75,
       "tango": 82,
-      "total": 589,
+      "total": 590,
       "wend": 35,
-      "wordle": 117,
+      "wordle": 118,
       "zip": 107
     },
     "matt_mcgovern": {
@@ -53,24 +53,24 @@
       "patches": 35,
       "queens": 74,
       "tango": 159,
-      "total": 560,
-      "wend": 25,
+      "total": 562,
+      "wend": 26,
       "wordle": 106,
-      "zip": 103
+      "zip": 104
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-      "crossclimb": 44,
+      "crossclimb": 45,
       "patches": 13,
       "queens": 39,
-      "tango": 56,
-      "total": 383,
+      "tango": 57,
+      "total": 387,
       "wend": 24,
-      "wordle": 128,
-      "zip": 79
+      "wordle": 129,
+      "zip": 80
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-10-27"
+    "last_processed_day_ny": "2026-10-28"
   },
   "monthly": {
     "2026-01": {
@@ -426,10 +426,10 @@
       },
       "Jeet Heslin - Georgetown": {
         "crossclimb": 0,
-        "patches": 0,
-        "queens": 1,
+        "patches": 1,
+        "queens": 2,
         "tango": 0,
-        "total": 3,
+        "total": 5,
         "wend": 1,
         "wordle": 0,
         "zip": 1
@@ -439,9 +439,9 @@
         "patches": 8,
         "queens": 7,
         "tango": 7,
-        "total": 73,
+        "total": 74,
         "wend": 13,
-        "wordle": 12,
+        "wordle": 13,
         "zip": 7
       },
       "matt_mcgovern": {
@@ -449,20 +449,20 @@
         "patches": 14,
         "queens": 9,
         "tango": 16,
-        "total": 68,
-        "wend": 7,
+        "total": 70,
+        "wend": 8,
         "wordle": 17,
-        "zip": 4
+        "zip": 5
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-        "crossclimb": 7,
+        "crossclimb": 8,
         "patches": 6,
         "queens": 2,
-        "tango": 2,
-        "total": 42,
+        "tango": 3,
+        "total": 46,
         "wend": 6,
-        "wordle": 9,
-        "zip": 10
+        "wordle": 10,
+        "zip": 11
       }
     }
   },
@@ -490,10 +490,10 @@
       },
       "Jeet Heslin - Georgetown": {
         "crossclimb": 0,
-        "patches": 0,
-        "queens": 1,
+        "patches": 1,
+        "queens": 2,
         "tango": 0,
-        "total": 3,
+        "total": 5,
         "wend": 1,
         "wordle": 0,
         "zip": 1
@@ -511,9 +511,9 @@
         "patches": 24,
         "queens": 75,
         "tango": 82,
-        "total": 589,
+        "total": 590,
         "wend": 35,
-        "wordle": 117,
+        "wordle": 118,
         "zip": 107
       },
       "matt_mcgovern": {
@@ -521,20 +521,20 @@
         "patches": 35,
         "queens": 74,
         "tango": 159,
-        "total": 560,
-        "wend": 25,
+        "total": 562,
+        "wend": 26,
         "wordle": 106,
-        "zip": 103
+        "zip": 104
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-        "crossclimb": 44,
+        "crossclimb": 45,
         "patches": 13,
         "queens": 39,
-        "tango": 56,
-        "total": 383,
+        "tango": 57,
+        "total": 387,
         "wend": 24,
-        "wordle": 128,
-        "zip": 79
+        "wordle": 129,
+        "zip": 80
       }
     }
   }
