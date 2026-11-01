@@ -1,28 +1,28 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 185,
-      "patches": 33,
-      "queens": 140,
+      "crossclimb": 186,
+      "patches": 34,
+      "queens": 141,
       "tango": 101,
-      "total": 842,
-      "wend": 52,
+      "total": 847,
+      "wend": 53,
       "wordle": 177,
-      "zip": 154
+      "zip": 155
     },
     "matt_mcgovern": {
       "crossclimb": 91,
       "patches": 55,
       "queens": 144,
-      "tango": 205,
-      "total": 845,
+      "tango": 206,
+      "total": 846,
       "wend": 38,
       "wordle": 149,
       "zip": 163
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-10-30"
+    "last_processed_day_ny": "2026-10-31"
   },
   "monthly": {
     "2026-01": {
@@ -197,21 +197,21 @@
     },
     "2026-10": {
       "elidarose": {
-        "crossclimb": 23,
-        "patches": 11,
-        "queens": 13,
+        "crossclimb": 24,
+        "patches": 12,
+        "queens": 14,
         "tango": 10,
-        "total": 110,
-        "wend": 21,
+        "total": 115,
+        "wend": 22,
         "wordle": 16,
-        "zip": 16
+        "zip": 17
       },
       "matt_mcgovern": {
         "crossclimb": 4,
         "patches": 20,
         "queens": 16,
-        "tango": 21,
-        "total": 102,
+        "tango": 22,
+        "total": 103,
         "wend": 8,
         "wordle": 18,
         "zip": 15
@@ -221,21 +221,21 @@
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 185,
-        "patches": 33,
-        "queens": 140,
+        "crossclimb": 186,
+        "patches": 34,
+        "queens": 141,
         "tango": 101,
-        "total": 842,
-        "wend": 52,
+        "total": 847,
+        "wend": 53,
         "wordle": 177,
-        "zip": 154
+        "zip": 155
       },
       "matt_mcgovern": {
         "crossclimb": 91,
         "patches": 55,
         "queens": 144,
-        "tango": 205,
-        "total": 845,
+        "tango": 206,
+        "total": 846,
         "wend": 38,
         "wordle": 149,
         "zip": 163

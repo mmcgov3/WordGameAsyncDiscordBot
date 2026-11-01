@@ -39,21 +39,21 @@
       "zip": 0
     },
     "elidarose": {
-      "crossclimb": 150,
-      "patches": 26,
-      "queens": 76,
+      "crossclimb": 151,
+      "patches": 27,
+      "queens": 77,
       "tango": 83,
-      "total": 598,
-      "wend": 35,
+      "total": 603,
+      "wend": 36,
       "wordle": 119,
-      "zip": 109
+      "zip": 110
     },
     "matt_mcgovern": {
       "crossclimb": 58,
       "patches": 35,
       "queens": 74,
-      "tango": 160,
-      "total": 563,
+      "tango": 161,
+      "total": 564,
       "wend": 26,
       "wordle": 106,
       "zip": 104
@@ -70,7 +70,7 @@
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-10-30"
+    "last_processed_day_ny": "2026-10-31"
   },
   "monthly": {
     "2026-01": {
@@ -435,21 +435,21 @@
         "zip": 1
       },
       "elidarose": {
-        "crossclimb": 20,
-        "patches": 10,
-        "queens": 8,
+        "crossclimb": 21,
+        "patches": 11,
+        "queens": 9,
         "tango": 8,
-        "total": 82,
-        "wend": 13,
+        "total": 87,
+        "wend": 14,
         "wordle": 14,
-        "zip": 9
+        "zip": 10
       },
       "matt_mcgovern": {
         "crossclimb": 1,
         "patches": 14,
         "queens": 9,
-        "tango": 17,
-        "total": 71,
+        "tango": 18,
+        "total": 72,
         "wend": 8,
         "wordle": 17,
         "zip": 5
@@ -507,21 +507,21 @@
         "zip": 0
       },
       "elidarose": {
-        "crossclimb": 150,
-        "patches": 26,
-        "queens": 76,
+        "crossclimb": 151,
+        "patches": 27,
+        "queens": 77,
         "tango": 83,
-        "total": 598,
-        "wend": 35,
+        "total": 603,
+        "wend": 36,
         "wordle": 119,
-        "zip": 109
+        "zip": 110
       },
       "matt_mcgovern": {
         "crossclimb": 58,
         "patches": 35,
         "queens": 74,
-        "tango": 160,
-        "total": 563,
+        "tango": 161,
+        "total": 564,
         "wend": 26,
         "wordle": 106,
         "zip": 104
