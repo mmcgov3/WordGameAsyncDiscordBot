@@ -1,28 +1,28 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 188,
+      "crossclimb": 189,
       "patches": 34,
-      "queens": 143,
-      "tango": 101,
-      "total": 854,
-      "wend": 54,
+      "queens": 144,
+      "tango": 102,
+      "total": 858,
+      "wend": 55,
       "wordle": 178,
       "zip": 156
     },
     "matt_mcgovern": {
       "crossclimb": 91,
-      "patches": 57,
+      "patches": 58,
       "queens": 144,
       "tango": 208,
-      "total": 853,
+      "total": 856,
       "wend": 39,
-      "wordle": 150,
-      "zip": 164
+      "wordle": 151,
+      "zip": 165
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-11-02"
+    "last_processed_day_ny": "2026-11-03"
   },
   "monthly": {
     "2026-01": {
@@ -219,48 +219,48 @@
     },
     "2026-11": {
       "elidarose": {
-        "crossclimb": 2,
+        "crossclimb": 3,
         "patches": 0,
-        "queens": 2,
-        "tango": 0,
-        "total": 7,
-        "wend": 1,
+        "queens": 3,
+        "tango": 1,
+        "total": 11,
+        "wend": 2,
         "wordle": 1,
         "zip": 1
       },
       "matt_mcgovern": {
         "crossclimb": 0,
-        "patches": 2,
+        "patches": 3,
         "queens": 0,
         "tango": 2,
-        "total": 7,
+        "total": 10,
         "wend": 1,
-        "wordle": 1,
-        "zip": 1
+        "wordle": 2,
+        "zip": 2
       }
     }
   },
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 188,
+        "crossclimb": 189,
         "patches": 34,
-        "queens": 143,
-        "tango": 101,
-        "total": 854,
-        "wend": 54,
+        "queens": 144,
+        "tango": 102,
+        "total": 858,
+        "wend": 55,
         "wordle": 178,
         "zip": 156
       },
       "matt_mcgovern": {
         "crossclimb": 91,
-        "patches": 57,
+        "patches": 58,
         "queens": 144,
         "tango": 208,
-        "total": 853,
+        "total": 856,
         "wend": 39,
-        "wordle": 150,
-        "zip": 164
+        "wordle": 151,
+        "zip": 165
       }
     }
   }
