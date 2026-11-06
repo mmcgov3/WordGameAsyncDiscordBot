@@ -23,9 +23,9 @@
     "Jeet Heslin - Georgetown": {
       "crossclimb": 2,
       "patches": 2,
-      "queens": 6,
+      "queens": 7,
       "tango": 0,
-      "total": 14,
+      "total": 15,
       "wend": 2,
       "wordle": 0,
       "zip": 2
@@ -52,25 +52,25 @@
       "crossclimb": 58,
       "patches": 36,
       "queens": 74,
-      "tango": 162,
-      "total": 570,
-      "wend": 26,
-      "wordle": 108,
-      "zip": 106
+      "tango": 163,
+      "total": 574,
+      "wend": 27,
+      "wordle": 109,
+      "zip": 107
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-      "crossclimb": 46,
-      "patches": 15,
+      "crossclimb": 47,
+      "patches": 16,
       "queens": 39,
       "tango": 60,
-      "total": 402,
+      "total": 404,
       "wend": 28,
       "wordle": 131,
       "zip": 83
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-11-04"
+    "last_processed_day_ny": "2026-11-05"
   },
   "monthly": {
     "2026-01": {
@@ -469,9 +469,9 @@
       "Jeet Heslin - Georgetown": {
         "crossclimb": 1,
         "patches": 1,
-        "queens": 3,
+        "queens": 4,
         "tango": 0,
-        "total": 7,
+        "total": 8,
         "wend": 1,
         "wordle": 0,
         "zip": 1
@@ -490,18 +490,18 @@
         "crossclimb": 0,
         "patches": 1,
         "queens": 0,
-        "tango": 1,
-        "total": 6,
-        "wend": 0,
-        "wordle": 2,
-        "zip": 2
+        "tango": 2,
+        "total": 10,
+        "wend": 1,
+        "wordle": 3,
+        "zip": 3
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-        "crossclimb": 1,
-        "patches": 2,
+        "crossclimb": 2,
+        "patches": 3,
         "queens": 0,
         "tango": 2,
-        "total": 11,
+        "total": 13,
         "wend": 2,
         "wordle": 1,
         "zip": 3
@@ -533,9 +533,9 @@
       "Jeet Heslin - Georgetown": {
         "crossclimb": 2,
         "patches": 2,
-        "queens": 6,
+        "queens": 7,
         "tango": 0,
-        "total": 14,
+        "total": 15,
         "wend": 2,
         "wordle": 0,
         "zip": 2
@@ -562,18 +562,18 @@
         "crossclimb": 58,
         "patches": 36,
         "queens": 74,
-        "tango": 162,
-        "total": 570,
-        "wend": 26,
-        "wordle": 108,
-        "zip": 106
+        "tango": 163,
+        "total": 574,
+        "wend": 27,
+        "wordle": 109,
+        "zip": 107
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
-        "crossclimb": 46,
-        "patches": 15,
+        "crossclimb": 47,
+        "patches": 16,
         "queens": 39,
         "tango": 60,
-        "total": 402,
+        "total": 404,
         "wend": 28,
         "wordle": 131,
         "zip": 83
