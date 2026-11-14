@@ -23,9 +23,9 @@
     "Jeet Heslin - Georgetown": {
       "crossclimb": 2,
       "patches": 3,
-      "queens": 9,
+      "queens": 10,
       "tango": 1,
-      "total": 20,
+      "total": 21,
       "wend": 2,
       "wordle": 0,
       "zip": 3
@@ -39,21 +39,21 @@
       "zip": 0
     },
     "elidarose": {
-      "crossclimb": 159,
-      "patches": 30,
+      "crossclimb": 160,
+      "patches": 31,
       "queens": 83,
       "tango": 86,
-      "total": 638,
-      "wend": 42,
-      "wordle": 124,
-      "zip": 114
+      "total": 643,
+      "wend": 43,
+      "wordle": 125,
+      "zip": 115
     },
     "matt_mcgovern": {
       "crossclimb": 58,
       "patches": 38,
       "queens": 74,
-      "tango": 168,
-      "total": 587,
+      "tango": 169,
+      "total": 588,
       "wend": 27,
       "wordle": 114,
       "zip": 108
@@ -70,7 +70,7 @@
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-11-12"
+    "last_processed_day_ny": "2026-11-13"
   },
   "monthly": {
     "2026-01": {
@@ -469,29 +469,29 @@
       "Jeet Heslin - Georgetown": {
         "crossclimb": 1,
         "patches": 2,
-        "queens": 6,
+        "queens": 7,
         "tango": 1,
-        "total": 13,
+        "total": 14,
         "wend": 1,
         "wordle": 0,
         "zip": 2
       },
       "elidarose": {
-        "crossclimb": 8,
-        "patches": 3,
+        "crossclimb": 9,
+        "patches": 4,
         "queens": 6,
         "tango": 3,
-        "total": 35,
-        "wend": 6,
-        "wordle": 5,
-        "zip": 4
+        "total": 40,
+        "wend": 7,
+        "wordle": 6,
+        "zip": 5
       },
       "matt_mcgovern": {
         "crossclimb": 0,
         "patches": 3,
         "queens": 0,
-        "tango": 7,
-        "total": 23,
+        "tango": 8,
+        "total": 24,
         "wend": 1,
         "wordle": 8,
         "zip": 4
@@ -533,9 +533,9 @@
       "Jeet Heslin - Georgetown": {
         "crossclimb": 2,
         "patches": 3,
-        "queens": 9,
+        "queens": 10,
         "tango": 1,
-        "total": 20,
+        "total": 21,
         "wend": 2,
         "wordle": 0,
         "zip": 3
@@ -549,21 +549,21 @@
         "zip": 0
       },
       "elidarose": {
-        "crossclimb": 159,
-        "patches": 30,
+        "crossclimb": 160,
+        "patches": 31,
         "queens": 83,
         "tango": 86,
-        "total": 638,
-        "wend": 42,
-        "wordle": 124,
-        "zip": 114
+        "total": 643,
+        "wend": 43,
+        "wordle": 125,
+        "zip": 115
       },
       "matt_mcgovern": {
         "crossclimb": 58,
         "patches": 38,
         "queens": 74,
-        "tango": 168,
-        "total": 587,
+        "tango": 169,
+        "total": 588,
         "wend": 27,
         "wordle": 114,
         "zip": 108

@@ -1,28 +1,28 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 196,
-      "patches": 39,
-      "queens": 152,
+      "crossclimb": 197,
+      "patches": 40,
+      "queens": 153,
       "tango": 105,
-      "total": 901,
-      "wend": 63,
-      "wordle": 183,
-      "zip": 163
+      "total": 907,
+      "wend": 64,
+      "wordle": 184,
+      "zip": 164
     },
     "matt_mcgovern": {
       "crossclimb": 93,
       "patches": 62,
       "queens": 145,
-      "tango": 215,
-      "total": 880,
+      "tango": 216,
+      "total": 881,
       "wend": 40,
       "wordle": 157,
       "zip": 168
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-11-12"
+    "last_processed_day_ny": "2026-11-13"
   },
   "monthly": {
     "2026-01": {
@@ -219,21 +219,21 @@
     },
     "2026-11": {
       "elidarose": {
-        "crossclimb": 10,
-        "patches": 5,
-        "queens": 11,
+        "crossclimb": 11,
+        "patches": 6,
+        "queens": 12,
         "tango": 4,
-        "total": 54,
-        "wend": 10,
-        "wordle": 6,
-        "zip": 8
+        "total": 60,
+        "wend": 11,
+        "wordle": 7,
+        "zip": 9
       },
       "matt_mcgovern": {
         "crossclimb": 2,
         "patches": 7,
         "queens": 1,
-        "tango": 9,
-        "total": 34,
+        "tango": 10,
+        "total": 35,
         "wend": 2,
         "wordle": 8,
         "zip": 5
@@ -243,21 +243,21 @@
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 196,
-        "patches": 39,
-        "queens": 152,
+        "crossclimb": 197,
+        "patches": 40,
+        "queens": 153,
         "tango": 105,
-        "total": 901,
-        "wend": 63,
-        "wordle": 183,
-        "zip": 163
+        "total": 907,
+        "wend": 64,
+        "wordle": 184,
+        "zip": 164
       },
       "matt_mcgovern": {
         "crossclimb": 93,
         "patches": 62,
         "queens": 145,
-        "tango": 215,
-        "total": 880,
+        "tango": 216,
+        "total": 881,
         "wend": 40,
         "wordle": 157,
         "zip": 168
