@@ -40,37 +40,37 @@
     },
     "elidarose": {
       "crossclimb": 163,
-      "patches": 32,
+      "patches": 33,
       "queens": 83,
       "tango": 87,
-      "total": 652,
+      "total": 655,
       "wend": 43,
-      "wordle": 127,
-      "zip": 117
+      "wordle": 128,
+      "zip": 118
     },
     "matt_mcgovern": {
-      "crossclimb": 58,
+      "crossclimb": 59,
       "patches": 40,
-      "queens": 76,
-      "tango": 171,
-      "total": 597,
-      "wend": 27,
-      "wordle": 116,
+      "queens": 77,
+      "tango": 172,
+      "total": 602,
+      "wend": 28,
+      "wordle": 117,
       "zip": 109
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
       "crossclimb": 49,
       "patches": 17,
       "queens": 39,
-      "tango": 60,
-      "total": 416,
+      "tango": 61,
+      "total": 417,
       "wend": 33,
       "wordle": 132,
       "zip": 86
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-11-17"
+    "last_processed_day_ny": "2026-11-18"
   },
   "monthly": {
     "2026-01": {
@@ -478,30 +478,30 @@
       },
       "elidarose": {
         "crossclimb": 12,
-        "patches": 5,
+        "patches": 6,
         "queens": 6,
         "tango": 4,
-        "total": 49,
+        "total": 52,
         "wend": 7,
-        "wordle": 8,
-        "zip": 7
+        "wordle": 9,
+        "zip": 8
       },
       "matt_mcgovern": {
-        "crossclimb": 0,
+        "crossclimb": 1,
         "patches": 5,
-        "queens": 2,
-        "tango": 10,
-        "total": 33,
-        "wend": 1,
-        "wordle": 10,
+        "queens": 3,
+        "tango": 11,
+        "total": 38,
+        "wend": 2,
+        "wordle": 11,
         "zip": 5
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
         "crossclimb": 4,
         "patches": 4,
         "queens": 0,
-        "tango": 2,
-        "total": 25,
+        "tango": 3,
+        "total": 26,
         "wend": 7,
         "wordle": 2,
         "zip": 6
@@ -550,30 +550,30 @@
       },
       "elidarose": {
         "crossclimb": 163,
-        "patches": 32,
+        "patches": 33,
         "queens": 83,
         "tango": 87,
-        "total": 652,
+        "total": 655,
         "wend": 43,
-        "wordle": 127,
-        "zip": 117
+        "wordle": 128,
+        "zip": 118
       },
       "matt_mcgovern": {
-        "crossclimb": 58,
+        "crossclimb": 59,
         "patches": 40,
-        "queens": 76,
-        "tango": 171,
-        "total": 597,
-        "wend": 27,
-        "wordle": 116,
+        "queens": 77,
+        "tango": 172,
+        "total": 602,
+        "wend": 28,
+        "wordle": 117,
         "zip": 109
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
         "crossclimb": 49,
         "patches": 17,
         "queens": 39,
-        "tango": 60,
-        "total": 416,
+        "tango": 61,
+        "total": 417,
         "wend": 33,
         "wordle": 132,
         "zip": 86
