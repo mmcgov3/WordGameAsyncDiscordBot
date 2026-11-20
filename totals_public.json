@@ -43,19 +43,19 @@
       "patches": 33,
       "queens": 83,
       "tango": 87,
-      "total": 655,
-      "wend": 43,
+      "total": 657,
+      "wend": 44,
       "wordle": 128,
-      "zip": 118
+      "zip": 119
     },
     "matt_mcgovern": {
-      "crossclimb": 59,
-      "patches": 40,
-      "queens": 77,
-      "tango": 172,
-      "total": 602,
+      "crossclimb": 60,
+      "patches": 41,
+      "queens": 78,
+      "tango": 173,
+      "total": 607,
       "wend": 28,
-      "wordle": 117,
+      "wordle": 118,
       "zip": 109
     },
     "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
@@ -70,7 +70,7 @@
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-11-18"
+    "last_processed_day_ny": "2026-11-19"
   },
   "monthly": {
     "2026-01": {
@@ -481,19 +481,19 @@
         "patches": 6,
         "queens": 6,
         "tango": 4,
-        "total": 52,
-        "wend": 7,
+        "total": 54,
+        "wend": 8,
         "wordle": 9,
-        "zip": 8
+        "zip": 9
       },
       "matt_mcgovern": {
-        "crossclimb": 1,
-        "patches": 5,
-        "queens": 3,
-        "tango": 11,
-        "total": 38,
+        "crossclimb": 2,
+        "patches": 6,
+        "queens": 4,
+        "tango": 12,
+        "total": 43,
         "wend": 2,
-        "wordle": 11,
+        "wordle": 12,
         "zip": 5
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
@@ -553,19 +553,19 @@
         "patches": 33,
         "queens": 83,
         "tango": 87,
-        "total": 655,
-        "wend": 43,
+        "total": 657,
+        "wend": 44,
         "wordle": 128,
-        "zip": 118
+        "zip": 119
       },
       "matt_mcgovern": {
-        "crossclimb": 59,
-        "patches": 40,
-        "queens": 77,
-        "tango": 172,
-        "total": 602,
+        "crossclimb": 60,
+        "patches": 41,
+        "queens": 78,
+        "tango": 173,
+        "total": 607,
         "wend": 28,
-        "wordle": 117,
+        "wordle": 118,
         "zip": 109
       },
       "\ud83d\udc22\ud83d\udc0d\ud83e\udd8e\ud83e\udd96\ud83e\udeb2andrea": {
