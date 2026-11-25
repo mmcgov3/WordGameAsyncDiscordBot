@@ -1,12 +1,12 @@
 {
   "lifetime": {
     "elidarose": {
-      "crossclimb": 203,
-      "patches": 45,
-      "queens": 155,
-      "tango": 108,
-      "total": 936,
-      "wend": 67,
+      "crossclimb": 204,
+      "patches": 46,
+      "queens": 156,
+      "tango": 109,
+      "total": 941,
+      "wend": 68,
       "wordle": 189,
       "zip": 169
     },
@@ -15,14 +15,14 @@
       "patches": 66,
       "queens": 152,
       "tango": 222,
-      "total": 917,
+      "total": 919,
       "wend": 46,
-      "wordle": 163,
-      "zip": 172
+      "wordle": 164,
+      "zip": 173
     }
   },
   "meta": {
-    "last_processed_day_ny": "2026-11-23"
+    "last_processed_day_ny": "2026-11-24"
   },
   "monthly": {
     "2026-01": {
@@ -219,12 +219,12 @@
     },
     "2026-11": {
       "elidarose": {
-        "crossclimb": 17,
-        "patches": 11,
-        "queens": 14,
-        "tango": 7,
-        "total": 89,
-        "wend": 14,
+        "crossclimb": 18,
+        "patches": 12,
+        "queens": 15,
+        "tango": 8,
+        "total": 94,
+        "wend": 15,
         "wordle": 12,
         "zip": 14
       },
@@ -233,22 +233,22 @@
         "patches": 11,
         "queens": 8,
         "tango": 16,
-        "total": 71,
+        "total": 73,
         "wend": 8,
-        "wordle": 14,
-        "zip": 9
+        "wordle": 15,
+        "zip": 10
       }
     }
   },
   "yearly": {
     "2026": {
       "elidarose": {
-        "crossclimb": 203,
-        "patches": 45,
-        "queens": 155,
-        "tango": 108,
-        "total": 936,
-        "wend": 67,
+        "crossclimb": 204,
+        "patches": 46,
+        "queens": 156,
+        "tango": 109,
+        "total": 941,
+        "wend": 68,
         "wordle": 189,
         "zip": 169
       },
@@ -257,10 +257,10 @@
         "patches": 66,
         "queens": 152,
         "tango": 222,
-        "total": 917,
+        "total": 919,
         "wend": 46,
-        "wordle": 163,
-        "zip": 172
+        "wordle": 164,
+        "zip": 173
       }
     }
   }
