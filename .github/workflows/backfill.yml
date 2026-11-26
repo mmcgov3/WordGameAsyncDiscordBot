@@ -28,11 +28,16 @@ jobs:
   backfill:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Checkout data repo
         uses: actions/checkout@v4
         with:
+          repository: mmcgov3/WordGameBotData
+          ssh-key: ${{ secrets.DATA_REPO_DEPLOY_KEY }}
+          path: data
           fetch-depth: 0   # the replay reads historical totals out of git
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -57,6 +62,6 @@ jobs:
         with:
           name: backfill-${{ inputs.start_date }}-to-${{ inputs.end_date }}
           path: |
-            totals_*.json
+            data/totals_*.json
             backfill_report.md
           if-no-files-found: error
