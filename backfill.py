@@ -71,12 +71,14 @@ def read_config():
 # =========================
 # Git helpers
 # =========================
+def git_in_repo_of(path: str, *args: str) -> subprocess.CompletedProcess:
+    """Runs git inside the repo that holds `path` (the data repo checkout)."""
+    repo_dir = os.path.dirname(os.path.abspath(path))
+    return subprocess.run(["git", *args], capture_output=True, text=True, cwd=repo_dir)
+
+
 def git_show(ref: str, path: str) -> str:
-    proc = subprocess.run(
-        ["git", "show", f"{ref}:{path}"],
-        capture_output=True,
-        text=True,
-    )
+    proc = git_in_repo_of(path, "show", f"{ref}:./{os.path.basename(path)}")
     if proc.returncode != 0:
         sys.exit(f"git show {ref}:{path} failed:\n{proc.stderr.strip()}")
     return proc.stdout
