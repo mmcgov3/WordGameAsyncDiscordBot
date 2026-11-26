@@ -107,11 +107,7 @@ def totals_commits_by_day(path: str) -> dict[str, tuple[str, str]]:
 
     Lets the report show who *was* credited for each day before the replay.
     """
-    proc = subprocess.run(
-        ["git", "log", "--format=%H", "--", path],
-        capture_output=True,
-        text=True,
-    )
+    proc = git_in_repo_of(path, "log", "--format=%H", "--", os.path.basename(path))
     if proc.returncode != 0:
         return {}
 
