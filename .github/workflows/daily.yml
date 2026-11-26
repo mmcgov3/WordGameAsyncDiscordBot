@@ -6,14 +6,21 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+        with:
+          repository: mmcgov3/WordGameBotData
+          ssh-key: ${{ secrets.DATA_REPO_DEPLOY_KEY }}
+          path: data
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,6 +38,7 @@ jobs:
         run: python main.py
 
       - name: Commit totals files if changed
+        working-directory: data
         run: |
           if git status --porcelain | grep -E -q "totals.*\.json"; then
             git config user.name "github-actions[bot]"
